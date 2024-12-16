@@ -1,0 +1,40 @@
+title: "Encrypted Pixels"
+
+category: "Cryptography"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  Combine your skills in cryptography and steganography to uncover the hidden flag! 
+  I encrypted a secret in an image. 
+  Your task is to extract the ciphertext from the image, decrypt it, and retrieve the flag.
+
+  - The encryption key is: `mysecretkey12345`. Use it to decrypt the extracted ciphertext.
+flag:
+  - `Alphabit{5eNHaDji5a1D}`
+files:
+  - challenge_image.png
+hints:
+  - "The AES encryption key is: `mysecretkey12345`."
+  - "Start by extracting the binary message from the image. Check the LSBs of the red channel."
+  - "The message ends with an EOF marker: `11111110`."
+  
+tags:
+  - steganography
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy-Medium"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"
