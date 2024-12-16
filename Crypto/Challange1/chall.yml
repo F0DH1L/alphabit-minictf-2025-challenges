@@ -16,6 +16,8 @@ flag:
 files:
   - challenge_image.png
 hints:
+  - The name of the author is always important.
+  - Start by looking for something hidden in the image itself.
   - "The AES encryption key is: `mysecretkey12345`."
   - "Start by extracting the binary message from the image. Check the LSBs of the red channel."
   - "The message ends with an EOF marker: `11111110`."
