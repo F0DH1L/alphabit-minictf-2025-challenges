@@ -1,0 +1,38 @@
+title: "Affine Cipher Mystery"
+
+category: "Cryptography"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  Decrypt a message encrypted using the Affine Cipher and retrieve the flag.
+
+  
+flag: 
+  - `Alphabit{AffineCipherYeay}`
+files:
+  - challenge_ciphertext.txt
+hints:
+  - "The encryption parameters are: b = 7, m = 128."
+  - a is coprime with m , ensuring the cipher is reversible.
+  - "Affine Cipher decryption formula: x = a_inverse * (y - b) % m."
+  - "Modular inverse can be calculated using Extended Euclidean Algorithm."
+
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"
