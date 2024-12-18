@@ -1,4 +1,4 @@
-Ciphertext: 5208b9cd4c2d40363044d094e1b4a8d3f3c8cf9509653ee0c487360cc5e550ca89a2cd29f9fc149a461d1ece18196966
-IV: cc0bebdbb03b4e5d99852fc0d1f7a7fc
+Ciphertext: 7c855a4ff9c65862a7c5557089f7c784d35e77533007ca8010868a4229fa2e3291a7a5f915ba20cdb57505bca34f01d023949ce4ff037db3f6efd9b145296d26
+IV: 740c491c47522f3632de8037493a1f96
 Block Size: 16 bytes
-Hint: Look for identical ciphertext blocks.
+Hint: Look for repeating ciphertext blocks.
