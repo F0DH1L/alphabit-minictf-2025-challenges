@@ -1,0 +1,38 @@
+title: "Algebraic Hill Cipher"
+
+category: "Cryptography"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  Decrypt the message encrypted using an extended Hill cipher.  
+  Ciphertext: `XM03IH)1{0$KC3@B>C *2<._1(;W`
+  The encryption supports letters, numbers, and special characters.
+
+flag:
+  - `Alphabit{5eNHaDji5a1D}`
+files:
+  - challenge_image.png
+hints:
+  - "Remember to use the modular inverse of the key matrix mod 64 for decryption."
+  - "Use the provided character set to map characters to numbers and vice versa."
+  - "Work through the math carefully for each pair of characters in the ciphertext."
+  
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"
