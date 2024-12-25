@@ -7,9 +7,9 @@ int main(int argc, char* argv[], char* envp[]){
                 printf("Give me a number \n");
                 return 0;
         }
-        int fd = (atoi( argv[1] ) - 1234) % 2;
+        int fd = atoi( argv[1] )*5 ;
         int len = read(fd, buf, 32);
-        if(!strcmp("ALPHABIT", buf)){
+        if(!strcmp("ALPHABIT\n", buf)){
                 system("/bin/cat flag.txt");
                 exit(0);
         }
