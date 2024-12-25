@@ -1,7 +1,7 @@
 name: oops 
 author: nothoudaifa
 # Author website or Github link
-author_link: @nothoudaifa
+author_link: https://github.com/Cherifi-Houdaifa 
 
 # Challenge category (pwn, web, reverse, crypto, misc, linux)
 category: pwn
@@ -10,6 +10,7 @@ difficulty: easy
 
 description: |
   > It seems i made a mistake, silly me!  
+  > [files](drive link goes here)  
 
   **Author** : nothoudaifa
 flags:
