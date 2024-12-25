@@ -14,7 +14,7 @@ author_link: https://github.com/y8w3ly
 # Challenge category (pwn, web, reverse, crypto, misc, linux)
 category: forensics
 # Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
-difficulty: medium
+difficulty: ezmed
 
 # Challenge description goes here
 # You can write markdown in it
@@ -70,7 +70,7 @@ topics:
 # Accepts strings
 tags:
   - stego
-  - tool
+  - guessy
 
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.

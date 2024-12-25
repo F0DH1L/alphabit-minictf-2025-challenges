@@ -1,4 +1,4 @@
-# XOR
+# Xor
 
 **`Author:`** [y8w3ly](https://github.com/y8w3ly)
 

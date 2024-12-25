@@ -23,7 +23,7 @@ difficulty: ezmed
 # - make sure to prepend the description with ">"
 # - always add the author line in the description (because CTFd doesn't add the author in the challenge description)
 description: |
-  > I discovered a new modulars property so i combined it with rsa  
+  > I don't think you know the modular arithmetic i learned recently, so i implented in my encryption.  
   **Author** : y8w3ly
 flags:
   # The flag should match this pattern: ^Alphabit{[A-Za-z0-9_@><:\.\-\+\$#!]{12,}}$

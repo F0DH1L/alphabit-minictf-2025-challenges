@@ -1,4 +1,4 @@
-name: partialXOR
+name: Xor
 author: y8w3ly
 author_link: https://github.com/y8w3ly
 
@@ -6,7 +6,7 @@ category: crypto
 difficulty: easy
 
 description: |
-  >you know ^ you don't = you know
+  >you know ^ you don't = you know   
   >here is your ciphertext : 380eadd0410347f1430277261bedcd7f0a40b54f14743752a8ff483e7acd0b054e205288e74b2f1ef2677a652656b1d44c0d42e954276c  
 
   **Author** : y8w3ly

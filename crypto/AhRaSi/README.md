@@ -1,10 +1,10 @@
-# rsa
+# AhRaSi
 
 **`Author:`** [y8w3ly](https://link.to/your/website/or/github/account)
 
 ## Description
 
-Description of the challenge goes here.
+I don't think you know the modular arithmetic i learned recently, so i implented in my encryption.
 
 ## Solution
 
