@@ -1,0 +1,36 @@
+name: Source_Evasion
+author: am1ne._b3ng
+
+author_link: https://github.com/ma-ben10
+
+category: reverse
+
+difficulty: easy-medium
+
+description: |
+  - I can’t remember  when i  developed this counter app, and unfortunately, i can’t find the project folder on my PC. All i have is an APK file that references it. However, i do remember one detail: the app was built with debug mode enabled. Explore the APK and see what you can uncover!
+
+flags:
+  
+  - Alphabit{gr34t_y0u_f0und_m3_ev3n_1n_th3_d3bu6_m0d3}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+    
+tags:
+  - dart
+  - flutter binary
+
+# Files to be uploaded alongside the challenge in CTFd
+# These paths are relative to the same directory where the challenge.yml file is.
+files:
+  - app-debug.apk
+
+state: hidden
+
+version: "0.1"
+
