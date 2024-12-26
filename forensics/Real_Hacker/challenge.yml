@@ -1,0 +1,40 @@
+name: Real Hacker
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: forensics
+difficulty: medium
+
+description: |
+  > Since he heard that i study computer science,  
+  > my boring neighbor always tell me if I could  
+  > hack some accounts for him, but this time  
+  > he came with a very interesting thing.  
+
+  **Author** : y8w3ly
+flags:
+  - Alphabit{D0n7_Try_th1s_t0_g3t_y0uR_g1rlfr13nds_4cc0un75}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+connection_info: # i left it as it was
+
+files :
+ - challenge/jnvrr94n.ctf-challenge
+topics:
+  - forensics
+
+tags :
+  - firefox 
+  - hard
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
