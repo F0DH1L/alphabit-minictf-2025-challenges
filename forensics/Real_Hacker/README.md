@@ -1,6 +1,6 @@
 # Real Hacker
 
-**`Author:`** [y8w3ly](https://link.to/your/website/or/github/account)
+**`Author:`** [y8w3ly](https://github.com/y8w3ly)
 
 ## Description
 
