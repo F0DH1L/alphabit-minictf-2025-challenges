@@ -1,4 +1,4 @@
-name: nonameyet
+name: qrcode
 author: y8w3ly
 author_link: https://github.com/y8w3ly
 
@@ -6,23 +6,22 @@ category: misc
 difficulty: easy
 
 description: |
-  >    It is in base64.  
+  >    Who made this rectangular qr code ?
   
   **Author** : y8w3ly
 flags:
-  - Alphabit{Str1ngs_mus7_4lw4y5_b3_th3_f1r57_7h1ng_y0U_Try}
+  - Alphabit{rMQR_1s_jus7_ano7h3r_3nc0d1ng}
 type: dynamic
+
 value: 500
 extra:
     initial: 500
     decay: 40 # leave it like this
     minimum: 50
 
-files:
-  - challenge/chall.jpg
 
 topics:
-  - strings
+  - rmqr
  
 tags :
   - warmup

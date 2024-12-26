@@ -1,4 +1,4 @@
-name: nonameyet
+name: binary?
 author: y8w3ly
 author_link: https://github.com/y8w3ly
 
@@ -6,11 +6,11 @@ category: misc
 difficulty: easy
 
 description: |
-  >    It is in base64.  
+  >    Length of the flag is 600.   
   
   **Author** : y8w3ly
 flags:
-  - Alphabit{Str1ngs_mus7_4lw4y5_b3_th3_f1r57_7h1ng_y0U_Try}
+  - Alphabit{}
 type: dynamic
 value: 500
 extra:
@@ -19,10 +19,10 @@ extra:
     minimum: 50
 
 files:
-  - challenge/chall.jpg
+  - challenge/data.txt
 
 topics:
-  - strings
+  - binary_image
  
 tags :
   - warmup
