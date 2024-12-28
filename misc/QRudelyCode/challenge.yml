@@ -1,0 +1,34 @@
+name: QRudely Code
+author: am1ne._b3ng
+
+author_link: https://github.com/ma-ben10
+
+category: misc
+
+difficulty: easy  
+
+description: |
+  -  it looks messing i think u can clean it
+flags:
+  
+  - Alphabit{QR4zi3st_c0d3_3v3r}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this make it slow as possible
+    minimum: 50
+    
+tags:
+  - Patterns   
+  
+# Files to be uploaded alongside the challenge in CTFd
+# These paths are relative to the same directory where the challenge.yml file is.
+files:
+  - qrcode.png 
+
+state: hidden
+
+version: "0.1"
+
