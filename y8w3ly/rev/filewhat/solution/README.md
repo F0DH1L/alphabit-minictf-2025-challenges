@@ -1,1 +1,0 @@
-echo "ALPHABIT" | ./chall 2 

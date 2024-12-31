@@ -1,2 +1,0 @@
-FLAG=b"Alphabit{I_w0Nd3r_WhY_w3_57udy_math_1n_un1v3rs1ty}"
-
