@@ -11,7 +11,7 @@ description: |
   The encryption supports letters, numbers, and special characters.
 
 flag:
-  - `Alphabit{5eNHaDji5a1D}`
+  - `ALPHABIT{ALG3BR4_IN_CRYPT0}`
 files:
   - challenge_image.png
 hints:

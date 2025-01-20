@@ -7,7 +7,7 @@
 Your task is to decrypt a message encrypted using the Hill cipher with a 2x2 key matrix. You are given:
 
 1. The ciphertext: `XM03IH)1{0$KC3@B>C *2<._1(;W`.
-2. The flag is in the format `Alphabit{...}`.
+2. The flag is in the format `ALPHABIT{...}`.
 
 The Hill cipher encryption is defined as:
 
