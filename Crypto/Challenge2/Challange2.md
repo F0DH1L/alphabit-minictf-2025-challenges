@@ -8,7 +8,7 @@ We want to encrypted a secret flag using a mathematical function $ f $. But we h
 Can you help us find the function $f(x)$ and encrypt my message?
 
 - Wen kow the format of the function $f$:
-  $$ f(x) = (ax^3 + bx^2 + cx + d) \ \text{mod} \ 256$$
+  $$ f(x) = (ax^3 + bx^2 + cx + d) \ \text{mod} \ 256 $$
 
   So you need to find a, b, c and d
 
