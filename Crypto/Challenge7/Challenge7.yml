@@ -1,0 +1,40 @@
+title: "ECC Shared Secret"
+
+category: "Cryptography"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+   Alice and Bob are exchanging secret messages using elliptic curve cryptography (ECC). You have intercepted their public keys and, surprisingly, Bob's private key. Your task is to compute the shared secret and decrypt the flag.
+flag:
+  - `Alphabit{N0w_Y0u_Kn0w_4b0ut_ECDH}`
+files:
+  - challenge.txt
+hints:
+  - Shared Secret Formula: S = Bob's Private Key * Alice's Public Key
+  - The elliptic curve used in this challenge is brainpoolP256r1.
+  - You can use Python libraries like `tinyec` to perform elliptic curve operations.
+
+resources:
+  - Elliptic Curve Cryptography: https://en.wikipedia.org/wiki/Elliptic-curve_cryptography
+  - Elliptic Curve Diffie-Hellman (ECDH): https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange
+  - Python tinyec Library Documentation: https://pypi.org/project/tinyec/
+  
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy-Medium"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"
