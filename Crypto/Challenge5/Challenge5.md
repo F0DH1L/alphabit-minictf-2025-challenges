@@ -16,12 +16,13 @@ $$ C = K \times P \pmod{m} $$
 Where:
 
 - $K$ is The encryption matrix:
-  $$
+  
+$$
   K = \begin{bmatrix}
   11 & 8 \\
   3 & 7
   \end{bmatrix}
-  $$
+$$
 
 ## Files
 
