@@ -4,7 +4,7 @@
 
 ## Description
 
-A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can investigate like a SOC analyst to determine the issue and recover the embedded data sent
+A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can you investigate like a SOC analyst to determine the issue and recover the embedded data sent
 
 ## Solution
 
