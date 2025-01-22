@@ -8,6 +8,7 @@ A notorious hacker has infiltrated a Windows machine within an organization's ne
 You, as the CTF participant, are tasked with extracting the names of the user account and the computer name of the hacked Windows machine from a captured memory dump file (memdmp.dmp).
 the flag format is "Alphabit{username_machineName}"
 ## Solution
+file : [get the memdmp](https://drive.google.com/file/d/1HxM3GFqXvSYZymCSK5mP_X4JUjEtqUZm/view?usp=drive_link)
 
 Solution of the challenge can be found [here](solution/).
 
