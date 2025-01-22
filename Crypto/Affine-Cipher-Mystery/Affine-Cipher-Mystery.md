@@ -18,9 +18,6 @@ Where:
 ### Given:
 
 1. **Ciphertext**: A sequence of encrypted ASCII values saved in `challenge_ciphertext.txt`.
-2. **Hints**:
-   - The encryption parameters $ b = 7 $, and $ m = 128 $.
-   - $ a $ is coprime with $ m $, ensuring the cipher is reversible.
 
 ## Objective:
 

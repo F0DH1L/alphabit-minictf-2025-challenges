@@ -10,14 +10,9 @@ description: |
 
   
 flag: 
-  - `Alphabit{AffineCipherYeay}`
+  - `Alphabit{did_you_know_affine_cipher_is_a_type_of_substitution_cipher}`
 files:
   - challenge_ciphertext.txt
-hints:
-  - "The encryption parameters are: b = 7, m = 128."
-  - a is coprime with m , ensuring the cipher is reversible.
-  - "Affine Cipher decryption formula: x = a_inverse * (y - b) % m."
-  - "Modular inverse can be calculated using Extended Euclidean Algorithm."
 
 tags:
   - cryptography
