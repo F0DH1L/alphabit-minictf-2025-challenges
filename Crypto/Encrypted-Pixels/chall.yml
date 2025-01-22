@@ -10,17 +10,10 @@ description: |
   I encrypted a secret in an image. 
   Your task is to extract the ciphertext from the image, decrypt it, and retrieve the flag.
 
-  - The encryption key is: `mysecretkey12345`. Use it to decrypt the extracted ciphertext.
 flag:
-  - `Alphabit{5eNHaDji5a1D}`
+  - `Alphabit{Wahran_Wharan_ro7ti_khasara}`
 files:
   - challenge_image.png
-hints:
-  - The name of the author is always important.
-  - Start by looking for something hidden in the image itself.
-  - "The AES encryption key is: `mysecretkey12345`."
-  - "Start by extracting the binary message from the image. Check the LSBs of the red channel."
-  - "The message ends with an EOF marker: `11111110`."
   
 tags:
   - steganography
