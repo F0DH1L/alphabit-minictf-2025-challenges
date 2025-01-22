@@ -12,19 +12,14 @@ Your goal:
 
 ---
 
-### Provided
+## Provided
 
 - **Ciphertext**: Hex-encoded ciphertext.
 - **IV**: Initialization vector.
 - **Block Size**: 16 bytes.
-- **Hint**: Look for identical ciphertext blocks and think about how CBC mode works.
 
----
-
-### Objective
+## Objective
 
 - Submit the flag hidden in the plaintext as proof of your decryption skills.
-
----
 
 Good luck!

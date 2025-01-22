@@ -1,0 +1,4 @@
+Ciphertext: b0ae02d4abe5658051536adbb4372f2031a20681b0581f87cf51f073022d9d23c0041b53b023dcae6a3a71d49e9f8195
+IV: e5faa2b251e28cf2b9a9eb6c146f22f9
+Block Size: 16 bytes
+Hint: Look for repeating ciphertext blocks.
