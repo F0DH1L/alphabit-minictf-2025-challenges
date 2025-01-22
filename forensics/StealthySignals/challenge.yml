@@ -1,16 +1,16 @@
-name: Empty pdf 
+name:  Stealthy Signals 
 author: am1ne._b3ng
 
 author_link: https://github.com/ma-ben10
 
 category: forensics
 
-difficulty: intermediate  
+difficulty: easy  
 
 description: |
-  - but a wise man said : don't trust pdf 
+  - A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can investigate as a SOC analyst to determine the issue and recover the embedded data sent 
 flags:
-  - Alphabit{wh4t_l3t_m3_th1nk_t0_d0_th1s}
+  - Alphabit{icmp_d4Ta_3xf1Ltr4t10n}
 
 type: dynamic
 value: 500
@@ -20,13 +20,12 @@ extra:
     minimum: 50
     
 tags:
-  - pdf forensics
-  - data recovery
+  - Network forensics
   
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
 files:
-  - pdf.pdf  
+  - file.pcapng  
 
 state: hidden
 

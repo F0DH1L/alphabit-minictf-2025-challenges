@@ -9,4 +9,3 @@ i just found a new way to hide my secret messages as a sad and high notes,i star
 ## Solution
 
 Solution of the challenge can be found [here](solution/).
-
