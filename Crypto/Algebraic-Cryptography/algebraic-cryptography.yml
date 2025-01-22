@@ -1,4 +1,4 @@
-title: "Algebraic Hill Cipher"
+title: "Algebraic Cryptography"
 
 category: "Cryptography"
 
@@ -11,13 +11,9 @@ description: |
   The encryption supports letters, numbers, and special characters.
 
 flag:
-  - `ALPHABIT{ALG3BR4_IN_CRYPT0}`
+  - `ALPHABIT{Y0U_NEED_ALG3BR4_IN_CRYPT0}`
 files:
   - challenge_image.png
-hints:
-  - "Remember to use the modular inverse of the key matrix mod 64 for decryption."
-  - "Use the provided character set to map characters to numbers and vice versa."
-  - "Work through the math carefully for each pair of characters in the ciphertext."
   
 tags:
   - cryptography
