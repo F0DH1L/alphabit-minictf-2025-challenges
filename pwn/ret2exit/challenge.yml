@@ -1,0 +1,40 @@
+name: ret2exit 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > ret2win, but the function exits???  
+  > [files](drive link goes here)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{n1c3_3xpl0it_buddy}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+
+connection_info: connection_info
+
+topics:
+  - ret2win
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
