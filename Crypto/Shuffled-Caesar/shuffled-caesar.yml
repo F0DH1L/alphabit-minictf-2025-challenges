@@ -14,9 +14,7 @@ files:
   - flag.enc
 hints:
   - The encryption involves a shuffled alphabet. Think of a Caesar cipher, but instead of shifting, we randomly rearranged the alphabet.
-  - The random arrangement of the alphabet was generated using a fixed seed (`2025`), which makes the process reproducible.
-  - Start by analyzing the frequency of characters in the encrypted text to deduce the mapping, or try to recreate the shuffled alphabet.
-  
+  - The random arrangement of the alphabet was generated using a fixed seed (`2025`), which makes the process reproducible.  
 tags:
   - cryptography
   - beginner

@@ -10,8 +10,8 @@ Crypto/CBC/soll.py
 Crypto/CBC/solution.md
 Crypto/Algebraic-Cryptography/soll.py
 Crypto/Algebraic-Cryptography/chall.py
-Crypto/Challenge6/chall.py
-Crypto/Challenge6/soll.py
-Crypto/Challenge6/secret.py
-Crypto/Challenge7/chall.py
-Crypto/Challenge7/soll.py
+Crypto/Shuffled-Caesar/chall.py
+Crypto/Shuffled-Caesar/soll.py
+Crypto/Shuffled-Caesar/secret.py
+Crypto/ECDH/chall.py
+Crypto/ECDH/soll.py

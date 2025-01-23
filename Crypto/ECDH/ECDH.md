@@ -8,6 +8,8 @@ Alice and Bob are exchanging secret messages using elliptic curve cryptography (
 
 Elliptic Curve Diffie-Hellman (ECDH) is a cryptographic protocol used to securely compute a shared secret over an insecure channel. It leverages the mathematical properties of elliptic curves, ensuring strong security with smaller key sizes compared to other cryptosystems like RSA.
 
+The elliptic curve used in this challenge is **brainpoolP256r1**.
+
 ### Key Concepts:
 
 1. **Elliptic Curve Equation**:
@@ -26,21 +28,6 @@ Elliptic Curve Diffie-Hellman (ECDH) is a cryptographic protocol used to securel
 ### Your Task:
 
 Use the provided public keys, Bob's private key, and the encrypted flag to recover the original flag.
-
-## Hints:
-
-1. **Shared Secret Formula**: The shared secret is computed as:
-   $$
-   S = \text{Bob's Private Key} \cdot \text{Alice's Public Key}
-   $$
-2. The elliptic curve used in this challenge is **brainpoolP256r1**.
-3. You can use Python libraries like `tinyec` to perform elliptic curve operations.
-
-## Resources
-
-- [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
-- [Elliptic Curve Diffie-Hellman (ECDH)](https://cryptobook.nakov.com/asymmetric-key-ciphers/ecdh-key-exchange)
-- [Python tinyec Library Documentation](https://pypi.org/project/tinyec/)
 
 ## File Provided:
 
