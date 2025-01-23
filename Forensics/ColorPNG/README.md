@@ -1,6 +1,6 @@
 # ColorPNG
 
-**`Author:`** [meriem/M3riLynx](https://github.com/MeriemMOKHTARI)
+**`Author:`** [M3riLynx](https://github.com/MeriemMOKHTARI)
 
 ## Description
 
