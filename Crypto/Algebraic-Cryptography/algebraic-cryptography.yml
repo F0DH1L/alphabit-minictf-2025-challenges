@@ -1,0 +1,34 @@
+title: "Algebraic Cryptography"
+
+category: "Cryptography"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  Decrypt the message encrypted using an extended Hill cipher.  
+  Ciphertext: `XM03IH)1{0$KC3@B>C *2<._1(;W`
+  The encryption supports letters, numbers, and special characters.
+
+flag:
+  - `ALPHABIT{Y0U_NEED_ALG3BR4_IN_CRYPT0}`
+files:
+  - challenge_image.png
+  
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: ${DECAY} # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"
