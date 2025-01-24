@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import os
+
+print('Escape me if you can (based on a true story)')
+
+win = 0
+
+code = input("give me code: ")
+
+
+blacklist = "(){}\"\'!"
+
+for char in code:
+    if char in blacklist:
+        print('gg')
+        exit(1)
+
+eval(code)
+
+if win == 0x1337:
+    os.system("cat flag.txt")

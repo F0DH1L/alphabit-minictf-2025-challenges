@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import os
+import random
+
+
+print("play rock paper scissors and win 100 times to get the flag :)")
+
+rock = 0
+paper = 1
+scissors = 2
+
+
+choix = [rock, paper, scissors]
+
+# Restricted evaluation environment
+safe_globals = {"__builtins__": None, "rock": rock, "paper": paper, "scissors": scissors}
+
+def safe_eval(expr):
+    try:
+        return eval(expr, safe_globals)
+    except Exception as e:
+        print("Invalid input!")
+        exit(1)
+
+
+for _ in range(0x100):   
+    computer = random.choice(choix)
+    player_input = input('what do you play (rock, paper, scissors): ')
+    player = safe_eval(player_input)
+    
+    if player not in choix:
+        print("Invalid choice!")
+        exit(1)
+    
+    if (computer == rock and player == paper) or (computer == paper and player == scissors) or (computer == scissors and player == rock):
+        print("you win")
+    else:
+        print("you lose")
+        exit(1)
+
+os.system('cat flag.txt')
