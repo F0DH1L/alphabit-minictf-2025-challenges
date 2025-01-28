@@ -1,0 +1,37 @@
+name: File_What?
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: misc
+difficulty: easy
+
+description: |
+  > Who writes descriptions ?   
+
+  **Author** : y8w3ly
+flags:
+  - Alphabit{F1l3_D3scR1pt0r_0_F0r_stdin}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+connection_info: # i left it as it was
+
+files :
+ - challenge/chall
+topics:
+  - rev
+
+tags :
+  - rev
+  - medium
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
