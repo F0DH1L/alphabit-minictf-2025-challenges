@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #01b1f7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #50e6eb;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #48adff;
+}
+
+.token.function {
+    color: #007580;
+}
+
+.code-block {
+    border: 2px solid #393c5563;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-left: 4px;
+}
