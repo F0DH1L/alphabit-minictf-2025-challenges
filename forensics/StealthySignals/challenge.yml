@@ -1,0 +1,33 @@
+name:  Stealthy Signals 
+author: am1ne._b3ng
+
+author_link: https://github.com/ma-ben10
+
+category: forensics
+
+difficulty: easy  
+
+description: |
+  - A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can you investigate as a SOC analyst to determine the issue and recover the embedded data sent 
+flags:
+  - Alphabit{icmp_d4Ta_3xf1Ltr4t10n}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY}
+    minimum: 50
+    
+tags:
+  - Network forensics
+  
+# Files to be uploaded alongside the challenge in CTFd
+# These paths are relative to the same directory where the challenge.yml file is.
+files:
+  - file.pcapng  
+
+state: hidden
+
+version: "0.1"
+
