@@ -9,6 +9,7 @@ difficulty: medium to heigh
 
 description: |
   - i just found a new way to hide my secret messages as a sad and high notes,i started with A 440
+  [sound.wav](https://drive.google.com/drive/u/0/folders/1udzY1kdUdUPoUyMTf2BOJVClx6gSMpam)
 flags:
   
   - Alphabit{4udi0_r3v3Rs1ng_1s_4m1z1n6}
@@ -25,10 +26,7 @@ tags:
   - audio analysis 
   
 # Files to be uploaded alongside the challenge in CTFd
-# These paths are relative to the same directory where the challenge.yml file is.
-files:
-  - sound.wav 
-  - encoding.py # this one will be added next maybe 
+# These paths are relative to the same directory where the challenge.yml file is. 
 
 state: hidden
 
