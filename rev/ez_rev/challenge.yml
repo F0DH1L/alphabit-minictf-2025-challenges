@@ -7,7 +7,7 @@ difficulty: easy
 
 description: |
   > If you wanna learn reverse this challenge is for you.
-  
+  >  [chall](https://drive.google.com/file/d/1eSQCqhB4_QnWHRHeZS3Omu50T1CaYzqy/view?usp=drive_link)
   **Author** : y8w3ly
 flags:
   - Alphabit{R3v3rse_1s_3z_Y0U_ju57_n33d_70_r3v3rs3_th3_0Pera710nS}
@@ -18,8 +18,7 @@ extra:
     decay: 40 # leave it like this
     minimum: 50
 
-files:
-  - challenge/chall
+
 
 topics:
   - rev

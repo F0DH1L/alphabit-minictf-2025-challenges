@@ -4,7 +4,7 @@
 
 ## Description
 
-I don't think you know the modular arithmetic i learned recently, so i implented in my encryption.
+I don't think you know the modular arithmetic i learned recently, so i implented it in my encryption.
 
 ## Solution
 

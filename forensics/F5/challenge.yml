@@ -23,7 +23,8 @@ difficulty: ezmed
 # - make sure to prepend the description with ">"
 # - always add the author line in the description (because CTFd doesn't add the author in the challenge description)
 description: |
-  > F4 apartment is no longer enough for my family.      
+  > F4 apartment is no longer enough for my family.   
+  > [chall.jpg](https://drive.google.com/file/d/1I_PNSFyoI5-gSL81H6PxePtpUITj9Fuv/view?usp=drive_link)   
 
   **Author** : y8w3ly
 flags:
@@ -74,8 +75,6 @@ tags:
 
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
-files:
-  - challenge/chall.jpg
 
 # DO NOT CHANGE
 

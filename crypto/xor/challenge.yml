@@ -6,9 +6,8 @@ category: crypto
 difficulty: easy
 
 description: |
-  >you know ^ you don't = you know   
-  >here is your ciphertext : 380eadd0410347f1430277261bedcd7f0a40b54f14743752a8ff483e7acd0b054e205288e74b2f1ef2677a652656b1d44c0d42e954276c  
-
+  > You know ^ you don't = you know   
+  > Here is your ciphertext : 380eadd0410347f1430277261bedcd7f0a40b54f14743752a8ff483e7acd0b054e205288e74b2f1ef2677a652656b1d44c0d42e954276c  
   **Author** : y8w3ly
 flags:
   - Alphabit{If_y0u_kn0w_eN0uGh_TH3N_Y0U_kN0w_1t_4llllllll}

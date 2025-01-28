@@ -7,7 +7,8 @@ difficulty: easy
 
 description: |
   > Who writes descriptions ?   
-
+  > [chall](https://drive.google.com/file/d/1AEyGST8TyFHB-bC88a7Lex9OO7mff3K6/view?usp=drive_link)  
+  
   **Author** : y8w3ly
 flags:
   - Alphabit{F1l3_D3scR1pt0r_0_F0r_stdin}
@@ -20,8 +21,6 @@ extra:
 
 connection_info: # i left it as it was
 
-files :
- - challenge/chall
 topics:
   - rev
 
