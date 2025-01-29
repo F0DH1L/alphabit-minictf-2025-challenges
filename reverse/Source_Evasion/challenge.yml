@@ -9,6 +9,7 @@ difficulty: easy
 
 description: |
   - I can’t remember  when i  developed this counter app, and unfortunately, i can’t find the project folder on my PC. All i have is an APK file that references it. However, i do remember one detail: the app was built with debug mode enabled. Explore the APK and see what you can uncover!
+  [app-debug.apk](https://drive.google.com/drive/u/0/folders/1eVS2UGHvBNpTymNdZ_qqafKAzbhKMBOC)
 
 flags:
   
@@ -27,8 +28,6 @@ tags:
 
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
-files:
-  - app-debug.apk
 
 state: hidden
 

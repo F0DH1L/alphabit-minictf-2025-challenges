@@ -9,6 +9,7 @@ difficulty: easy
 
 description: |
   -  it looks messing i think u can clean it
+  [qr.png](https://drive.google.com/drive/u/0/folders/1MYFdqbxM5Hh9SQCNISkLc-zDxnCGnXHa)
 flags:
   
   - Alphabit{QR4zi3st_c0d3_3v3r}
@@ -25,8 +26,6 @@ tags:
   
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
-files:
-  - qrcode.png 
 
 state: hidden
 
