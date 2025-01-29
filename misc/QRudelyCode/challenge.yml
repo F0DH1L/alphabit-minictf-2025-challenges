@@ -18,7 +18,7 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this make it slow as possible
+    decay: 35 # leave it like this make it slow as possible
     minimum: 50
     
 tags:

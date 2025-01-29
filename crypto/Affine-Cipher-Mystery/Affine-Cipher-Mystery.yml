@@ -25,7 +25,7 @@ type: dynamic
 value: 500
 extra:
   initial: 500
-  decay: ${DECAY} # leave it like this
+  decay: 35 # leave it like this
   minimum: 50
 
 state: hidden
