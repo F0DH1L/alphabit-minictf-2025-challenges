@@ -12,8 +12,6 @@ description: |
 
 flag:
   - Alphabit{Y0U_NEED_ALG3BR4_IN_CRYPT0}
-files:
-  - challenge_image.png
   
 tags:
   - cryptography
