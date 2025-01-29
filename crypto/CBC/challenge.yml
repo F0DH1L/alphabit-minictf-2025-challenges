@@ -11,7 +11,7 @@ description:  >
 
   
 flag: 
-  - `Alphabit{CBC_BR4ked}`
+  - Alphabit{CBC_BR4ked}
 files:
   - "cbc_challenge.txt"
 hints:

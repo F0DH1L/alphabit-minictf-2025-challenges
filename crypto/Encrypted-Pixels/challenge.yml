@@ -11,7 +11,7 @@ description: |
   Your task is to extract the ciphertext from the image, decrypt it, and retrieve the flag.
 
 flag:
-  - `Alphabit{Wahran_Wharan_ro7ti_khasara}`
+  - Alphabit{Wahran_Wharan_ro7ti_khasara}
 files:
   - challenge_image.png
   
