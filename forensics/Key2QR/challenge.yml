@@ -19,7 +19,6 @@ extra:
     minimum: 50
 tags:
   - GIF
-  - hexedit
 
 files:
   - chall_corrupted.png
