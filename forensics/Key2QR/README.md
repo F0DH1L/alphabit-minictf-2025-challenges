@@ -4,8 +4,7 @@
 
 ## Description
 
-A broken GIF hides a key for a locked QR code that holds the final part of the flag.
-Can you repair, unlock, and retrieve the flag?
+Glitches distort the truth, fragments are misplaced, and some parts remain **guarded**. Not everything is as it seems—can you **piece** it together and **grasp** what’s hidden?
 ## Solution
 
 The idea is to **repair a corrupted GIF** to extract a **key** and the first part of the flag. This key is then used to **decrypt a locked QR code**, revealing the second part of the flag.
