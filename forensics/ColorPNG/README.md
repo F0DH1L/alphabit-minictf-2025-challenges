@@ -4,7 +4,6 @@
 
 ## Description
 
-I’ve always loved the color red—how about you?  
 I bet you’re great with PNGs.  
 Can you uncover the secret hidden inside?
 
