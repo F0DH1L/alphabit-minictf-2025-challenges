@@ -7,6 +7,7 @@ difficulty: ezmed
 
 description: |
   > I made a better recipe this time.     
+  >  [chall.pyc](https://drive.google.com/file/d/1RqKxUlbqgZp5hOAPhulziTA-ZDiGi6Cz/view?usp=drive_link)
   **Author** : y8w3ly
 flags:
   - Alphabit{}
@@ -18,8 +19,7 @@ extra:
   minimum: 50
 
 connection_info: connection_info
-files:
-  - ./challenge/__pycache__/chall.cpython-310.pyc
+
 topics:
   - python
 

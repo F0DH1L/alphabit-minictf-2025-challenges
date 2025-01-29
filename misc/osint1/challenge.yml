@@ -24,7 +24,8 @@ difficulty: medium
 # - always add the author line in the description (because CTFd doesn't add the author in the challenge description)
 description: |
   > Photography Is my second favourite hobby  
-  > can you guess what the first one is ?        
+  > can you guess what the first one is ?      
+  > [photo.jpg](https://drive.google.com/file/d/1TPArOTdybQh_GhqYwmZKzCfDmfsIU732/view?usp=drive_link)  
 
   **Author** : y8w3ly
 flags:
