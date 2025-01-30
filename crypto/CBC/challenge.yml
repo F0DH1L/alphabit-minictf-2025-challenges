@@ -8,7 +8,8 @@ author_link: https://github.com/SenhadjiMSaid
 description:  >
   Exploit a vulnerability in AES-CBC encryption to recover the plaintext and find the flag.
   Identical ciphertext blocks may reveal information about the plaintext.
-
+  >
+  >  **Author** : Senhadji M Said
   
 flag: 
   - Alphabit{CBC_BR4ked}

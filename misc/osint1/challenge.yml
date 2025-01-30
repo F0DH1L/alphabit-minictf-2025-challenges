@@ -27,7 +27,8 @@ description: |
   > can you guess what the first one is ?      
   > [photo.jpg](https://drive.google.com/file/d/1TPArOTdybQh_GhqYwmZKzCfDmfsIU732/view?usp=drive_link)  
 
-  **Author** : y8w3ly
+  >
+  >  **Author** : y8w3ly
 flags:
   # The flag should match this pattern: ^Alphabit{[A-Za-z0-9_@><:\.\-\+\$#!]{12,}}$
   # 1. It can have any alphanumeric characters in addition of the following
@@ -48,8 +49,6 @@ extra:
 # type: docker
 # value: 500
 
-files :
-  - challenge/photo.jpg
 
 # Optional settings
 
@@ -62,7 +61,6 @@ files :
 #    4.2 nc: nc -v inst.ctf.gdgalgiers.com ${INSTANCE_PORT}
 #    4.3 ssh: ssh -p ${INSTANCE_PORT} {user}@inst.ctf.gdgalgiers.com
 # 5. For offline challenges: remove connection_info
-connection_info: connection_info
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
@@ -77,8 +75,6 @@ tags:
 
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
-files:
-  - challenge/chall.jpg
 
 # DO NOT CHANGE
 

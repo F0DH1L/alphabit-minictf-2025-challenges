@@ -26,7 +26,8 @@ description: |
   > I don't think you know the modular arithmetic i learned recently, so i implented it in my encryption.  
   > [output.txt](https://drive.google.com/file/d/1Dja40GSpJlFyLGxL7EemxwfKk6URPhaD/view?usp=drive_link)  
   
-  **Author** : y8w3ly
+  >
+  >  **Author** : y8w3ly
 flags:
   # The flag should match this pattern: ^Alphabit{[A-Za-z0-9_@><:\.\-\+\$#!]{12,}}$
   # 1. It can have any alphanumeric characters in addition of the following
@@ -59,7 +60,6 @@ extra:
 #    4.2 nc: nc -v inst.ctf.gdgalgiers.com ${INSTANCE_PORT}
 #    4.3 ssh: ssh -p ${INSTANCE_PORT} {user}@inst.ctf.gdgalgiers.com
 # 5. For offline challenges: remove connection_info
-connection_info: connection_info
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

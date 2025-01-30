@@ -8,8 +8,10 @@ category: forensics
 difficulty: easy  
 
 description: |
-  - A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can you investigate as a SOC analyst to determine the issue and recover the embedded data sent
+  > A sudden spike in network traffic has raised alarms in your organization's Security Operations Center (SOC). Can you investigate as a SOC analyst to determine the issue and recover the embedded data sent
   [file.pcapng](https://drive.google.com/drive/u/0/folders/1oEv7SkvLtjS431JUlNZeCJgx5Xcn17--)
+  >
+  >  **Author** : am1ne._b3ng
 flags:
   - Alphabit{icmp_d4Ta_3xf1Ltr4t10n}
 

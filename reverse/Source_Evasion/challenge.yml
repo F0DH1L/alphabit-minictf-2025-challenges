@@ -8,9 +8,10 @@ category: reverse
 difficulty: easy
 
 description: |
-  - I can’t remember  when i  developed this counter app, and unfortunately, i can’t find the project folder on my PC. All i have is an APK file that references it. However, i do remember one detail: the app was built with debug mode enabled. Explore the APK and see what you can uncover!
+  > I can’t remember  when i  developed this counter app, and unfortunately, i can’t find the project folder on my PC. All i have is an APK file that references it. However, i do remember one detail: the app was built with debug mode enabled. Explore the APK and see what you can uncover!
   [app-debug.apk](https://drive.google.com/drive/u/0/folders/1eVS2UGHvBNpTymNdZ_qqafKAzbhKMBOC)
-
+  >
+  >  **Author** : am1ne._b3ng
 flags:
   
   - Alphabit{gr34t_y0u_f0und_m3_ev3n_1n_th3_d3bu6_m0d3}
