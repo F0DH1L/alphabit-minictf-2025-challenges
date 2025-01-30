@@ -7,10 +7,11 @@ difficulty: ezmed
 
 description: |
   > I made a better recipe this time.     
-  >  [chall.pyc](https://drive.google.com/file/d/1RqKxUlbqgZp5hOAPhulziTA-ZDiGi6Cz/view?usp=drive_link)
+  >  [chall.pyc](https://drive.google.com/file/d/1RqKxUlbqgZp5hOAPhulziTA-ZDiGi6Cz/view?usp=drive_link)  
+
   **Author** : y8w3ly
 flags:
-  - Alphabit{}
+  - Alphabit{r3v3rse_1s_d3l1c1ous_w1th_python}
 type: dynamic
 value: 500
 extra:

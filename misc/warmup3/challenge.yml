@@ -7,7 +7,8 @@ difficulty: easy
 
 description: |
   >    Length of the flag is 600.   
-  >  [data.txt](https://drive.google.com/file/d/1dOa0ud254nQA9RpGDROFDXpuf2GU19My/view?usp=drive_link)
+  >  [data.txt](https://drive.google.com/file/d/1dOa0ud254nQA9RpGDROFDXpuf2GU19My/view?usp=drive_link)  
+
   **Author** : y8w3ly
 flags:
   - Alphabit{y3s_1t_w4s_binary_bu7_not_4sc11}

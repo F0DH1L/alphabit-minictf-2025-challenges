@@ -1,27 +1,10 @@
-  # NOTE: carefully read the comments
-# NOTE: change all that's between {} unless specified otherwise
-#
-# This file represents the base specification of your challenge. It is used by
-# other tools to install and deploy your challenge.
-
-# Required sections
-#
 name: F5
 author: y8w3ly
-# Author website or Github link
 author_link: https://github.com/y8w3ly
 
-# Challenge category (pwn, web, reverse, crypto, misc, linux)
 category: forensics
-# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
 difficulty: ezmed
 
-# Challenge description goes here
-# You can write markdown in it
-# Notes:
-# - for multi-line descriptions, make sure to add 2 spaces at the end of each line so that descriptions are actually displayed in multiple lines
-# - make sure to prepend the description with ">"
-# - always add the author line in the description (because CTFd doesn't add the author in the challenge description)
 description: |
   > F4 apartment is no longer enough for my family.   
   > [chall.jpg](https://drive.google.com/file/d/1I_PNSFyoI5-gSL81H6PxePtpUITj9Fuv/view?usp=drive_link)   
@@ -35,8 +18,6 @@ flags:
   #    hard to guess.
   - Alphabit{1t_w4s_F5_st3g4n0Gr4phY}
 
-# Challenge type and points
-# For regular challenges leave like this:
 type: dynamic
 value: 500
 extra:
