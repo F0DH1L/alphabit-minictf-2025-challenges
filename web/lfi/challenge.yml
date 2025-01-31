@@ -1,0 +1,28 @@
+name: "lfi"
+author: "Souhaib"
+
+category: web
+difficulty: easy
+
+description: |
+  > .
+
+connection_info: http://74.234.192.231:1320
+
+tags:
+  - easy
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 35
+  minimum: 50
+
+flags:
+  - Alphabit{b4by_lf1_f0r_0ur_n3wb4bi3s1}
+
+state: visible
+
+version: "0.1"
