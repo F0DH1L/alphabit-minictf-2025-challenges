@@ -12,7 +12,7 @@ COPY challenge .
 RUN chown -R root:root .
 RUN chmod +x chall entrypoint.sh ./glibc/libc.so.6 ./glibc/ld-linux-x86-64.so.2
 
-EXPOSE 1341
+EXPOSE 1337
 
 USER ctf
 
