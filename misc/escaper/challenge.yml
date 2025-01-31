@@ -26,7 +26,7 @@ extra:
     minimum: 50
 
 
-connection_info: connection_info
+connection_info: nc 74.234.192.231 1306
 
 
 # DO NOT CHANGE
