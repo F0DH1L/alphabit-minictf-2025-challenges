@@ -26,7 +26,7 @@ extra:
     minimum: 50
 
 
-connection_info: nc 74.234.192.231 1307
+connection_info: nc challenges.alphabit.club 1307
 
 
 # DO NOT CHANGE

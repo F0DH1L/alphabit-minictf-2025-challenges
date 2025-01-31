@@ -29,7 +29,7 @@ extra:
     minimum: 50
 
 
-connection_info: nc 74.234.192.231 1302
+connection_info: nc challenges.alphabit.club 1302
 
 topics:
   - simple uaf
