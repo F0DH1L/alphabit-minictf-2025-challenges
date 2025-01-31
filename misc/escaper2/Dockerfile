@@ -13,7 +13,7 @@ COPY challenge .
 RUN chown -R root:root .
 RUN chmod +x chall entrypoint.sh 
 
-EXPOSE 1337 
+EXPOSE 1338
 
 USER ctf
 
