@@ -1,0 +1,32 @@
+name: injector
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > i made a database for the best clubs in the world, you can check it out 
+  > [files](https://drive.google.com/drive/u/0/folders/1T-WvlG7BrI9Yevfirfgguqq9T1BrCvMI)
+  >
+  **Author** : F0DH1L
+flags:
+  - Alphabit{C0mm4nd_1nj3ct10n_1s_fun}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+connection_info: http://mini-ctf.alphabit.club:1343
+
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

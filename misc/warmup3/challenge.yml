@@ -1,0 +1,36 @@
+name: binary?
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: misc
+difficulty: easy
+
+description: |
+  >    Length of the flag is 600.   
+  >  [data.txt](https://drive.google.com/file/d/1dOa0ud254nQA9RpGDROFDXpuf2GU19My/view?usp=drive_link)
+  >
+  >  **Author** : y8w3ly
+flags:
+  - Alphabit{y3s_1t_w4s_binary_bu7_not_4sc11}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+files:
+  - challenge/data.txt
+
+topics:
+  - binary_image
+ 
+tags :
+  - warmup
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

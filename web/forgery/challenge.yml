@@ -1,0 +1,33 @@
+name: forgery
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: easy
+
+description: |
+  > i made a website checker it will give you the source code of anything you want 
+  > [files](https://drive.google.com/drive/u/0/folders/1MeXCCq3_yTOLWd2SsPBBv_0wVejNM9Si)
+  >
+  **Author** : F0DH1L
+flags:
+  - Alphabit{SSRF_1s_4_s3ri0us_pr0bl3m_N3v3r_Trust_Th3_Us3r}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+connection_info: http://mini-ctf.alphabit.club:1342
+
+
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

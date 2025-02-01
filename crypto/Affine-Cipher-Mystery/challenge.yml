@@ -1,0 +1,34 @@
+name: "Affine Cipher Mystery"
+
+category: "crypto"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  Decrypt a message encrypted using the Affine Cipher and retrieve the flag.
+  >
+  >  **Author** : Senhadji M Said
+  
+flags: 
+  - Alphabit{did_you_know_affine_cipher_is_a_type_of_substitution_cipher}
+files:
+  - challenge_ciphertext.txt
+
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 35 # leave it like this
+  minimum: 50
+
+state: hidden
+
+version: "0.1"

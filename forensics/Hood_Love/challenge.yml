@@ -1,0 +1,34 @@
+name: Hood Love
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: forensics
+difficulty: medium
+
+description: |
+  > When we were in our way to Annaba, we intercepted this familiar audio with this number 1241159    
+  > [chall.wav](https://drive.google.com/file/d/178DQrpS8P5ZDob2Z4WHsmudRusTauyUE/view?usp=drive_link)
+  >
+  >  **Author** : y8w3ly
+flags:
+  - Alphabit{In_my_eyes_you_are_the_most_beautiful_star}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 35 # leave it like this
+  minimum: 50
+
+
+
+topics:
+  - stego
+
+tags:
+  - lsb
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

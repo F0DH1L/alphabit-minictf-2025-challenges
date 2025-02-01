@@ -1,0 +1,30 @@
+name: Cake Baker
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: reverse
+difficulty: ezmed
+
+description: |
+  > I made a better recipe this time.     
+  >  [chall.pyc](https://drive.google.com/file/d/1RqKxUlbqgZp5hOAPhulziTA-ZDiGi6Cz/view?usp=drive_link)
+  >
+  >  **Author** : y8w3ly
+flags:
+  - Alphabit{}
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 35 # leave it like this
+  minimum: 50
+
+
+topics:
+  - python
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

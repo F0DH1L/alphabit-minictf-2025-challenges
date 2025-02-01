@@ -1,0 +1,38 @@
+name:  Memory
+author: am1ne._b3ng
+
+author_link: https://github.com/ma-ben10
+
+category: forensics
+
+difficulty: easy  
+
+description: |
+  > A notorious hacker has infiltrated a Windows machine within an organization's network. To cover their tracks, the attacker decided to leave no logs behind and instead extracted important information directly from the system's memory (RAM). However, the attacker made a small mistake while performing the attack. They accidentally left behind traces of valuable information in the RAM dump.
+  You, as the CTF participant, are tasked with extracting the names of the user account and the computer name of the hacked Windows machine from a captured memory dump file (memdmp.dmp).
+  the flag format is "Alphabit{username_machineName}"
+  [memory.dmp](https://drive.google.com/drive/u/0/folders/1czgd9cVF9TKI5fD1daJoDURlWo4X7FbL)
+  >
+  >  **Author** : am1ne._b3ng
+
+flags:
+  - Alphabit{1sl3m_DESKTOP-ILFS782}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+    
+tags:
+  - Endpoints
+  - volatilty
+  
+# Files to be uploaded alongside the challenge in CTFd
+# These paths are relative to the same directory where the challenge.yml file is.
+
+state: hidden
+
+version: "0.1"
+

@@ -1,0 +1,35 @@
+name: Ez_Rev
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: reverse
+difficulty: easy
+
+description: |
+  > If you wanna learn reverse this challenge is for you.
+  >  [chall](https://drive.google.com/file/d/1eSQCqhB4_QnWHRHeZS3Omu50T1CaYzqy/view?usp=drive_link)
+  >
+  >  **Author** : y8w3ly
+flags:
+  - Alphabit{R3v3rse_1s_3z_Y0U_ju57_n33d_70_r3v3rs3_th3_0Pera710nS}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+
+topics:
+  - rev
+
+tags :
+  - crackme
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"

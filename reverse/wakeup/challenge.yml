@@ -1,0 +1,35 @@
+name: WakeUp
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: reverse
+difficulty: easy
+
+description: |
+  > How to wake this thing up?   
+  > [chall](https://drive.google.com/file/d/1xiEnU_7wkUM4npDortJZeavOsbPSqPVv/view?usp=drive_link) 
+  >
+  >  **Author** : y8w3ly
+flags:
+  - Alphabit{0x90_1s_th3_n0p_1nstruct10n}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+topics:
+  - rev
+ 
+tags :
+  - easy
+  - patching
+
+  
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
