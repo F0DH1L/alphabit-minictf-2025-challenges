@@ -1,24 +1,25 @@
-name: "Breaking CBC Encryption"
+name: "CBC?"
 
 category: "crypto"
 
 author: "Senhadji M Said"
 author_link: https://github.com/SenhadjiMSaid
 
-description:  >
-  Exploit a vulnerability in AES-CBC encryption to recover the plaintext and find the flag.
+description: >
+  Exploit a vulnerability in AES encryption to recover the plaintext and find the flag.
   Identical ciphertext blocks may reveal information about the plaintext.
-  >
+  Evrything you need is in the provided file.
+  > [cbc_challenge.txt](https://drive.google.com/file/d/1rxvdgQLS7wZ8qk2gWDIS5T_GUesZTFpo/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-  
-flag: 
-  - Alphabit{CBC_BR4ked}
+
+flag:
+  - Alphabit{it_was_ECB_all_along}
 files:
   - "cbc_challenge.txt"
 hints:
   - "Look for identical ciphertext blocks."
   - "CBC mode uses XOR between plaintext and the previous ciphertext block (or IV for the first block)."
-  - "Identical ciphertext blocks suggest identical plaintext inputs."
+  - "Identical plaintext blocks may reveal something..."
 
 tags:
   - cryptography

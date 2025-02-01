@@ -1,4 +1,4 @@
-name: "Affine Cipher Mystery"
+name: "Cipher Mystery"
 
 category: "crypto"
 
@@ -7,10 +7,10 @@ author_link: https://github.com/SenhadjiMSaid
 
 description: |
   Decrypt a message encrypted using the Affine Cipher and retrieve the flag.
-  >
+  > [challenge_ciphertext.txt](https://drive.google.com/file/d/1cyQRl4JXguYhDWrfLpusxXRqbHiscDcv/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-  
-flag: 
+
+flag:
   - Alphabit{did_you_know_affine_cipher_is_a_type_of_substitution_cipher}
 files:
   - challenge_ciphertext.txt

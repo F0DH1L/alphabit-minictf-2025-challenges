@@ -1,4 +1,5 @@
-Ciphertext: b0ae02d4abe5658051536adbb4372f2031a20681b0581f87cf51f073022d9d23c0041b53b023dcae6a3a71d49e9f8195
-IV: e5faa2b251e28cf2b9a9eb6c146f22f9
+Ciphertext: 8d0c577ad9ac0020ef8760bae93a214c8d0c577ad9ac0020ef8760bae93a214cd9dada73d767a71983afb50f76d31186e7f4b8e3dc8439867f1ff433c49a0157
+IV: b3d9d8b3cb535639f66b9844ccf13548
+key: "secretsenhadji31"
 Block Size: 16 bytes
 Hint: Look for repeating ciphertext blocks.
