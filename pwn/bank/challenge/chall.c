@@ -52,7 +52,7 @@ int main () {
 			free(account);
 		} else if (choice == 4) {
 			if (account->amount > 0xffffffffff) {
-				puts("you win");
+				system("cat flag.txt");
 			} else {
 				puts("you're poor, i can't give you the flag");
 			}
