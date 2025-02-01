@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1343:1337
+    environment:
+      - FLAG=Alphabit{C0mm4nd_1nj3ct10n_1s_fun}
+    restart: always
+    read_only: true
