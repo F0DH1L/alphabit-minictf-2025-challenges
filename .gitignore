@@ -15,5 +15,8 @@ Crypto/Shuffled-Caesar/secret.py
 Crypto/ECDH/chall.py
 Crypto/ECDH/soll.py
 /challenge-example
-/.vscode
 /**/node_modules
+/**/users.txt
+/**/users.csv
+/**/send_mails.py
+/**/add_users.py
