@@ -11,7 +11,7 @@ description: |
   Your task is to extract the ciphertext from the image, decrypt it, and retrieve the flag.
   > [challenge_image.png](https://drive.google.com/file/d/1N9tssE-1ccwVIu-VQJrsL2IM3dqin95R/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-flag:
+flags:
   - Alphabit{Wahran_Wharan_ro7ti_khasara}
 files:
   - challenge_image.png

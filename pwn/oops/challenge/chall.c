@@ -3,8 +3,15 @@
 
 // gcc oops.c -o oops -no-pie
 
+void setup () {
+    setbuf(stdin, 0);
+    setbuf(stdout, 0);
+    setbuf(stderr, 0);
+}
 
 int main () {
+	setup();
+
 	printf("a gift from the author: %p\n", system);
 
 	unsigned long number;

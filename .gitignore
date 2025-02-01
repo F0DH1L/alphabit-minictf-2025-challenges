@@ -18,6 +18,14 @@ Crypto/Shuffled-Caesar/secret.py
 Crypto/ECDH/chall.py
 Crypto/ECDH/soll.py
 /challenge-example
+<<<<<<< HEAD
 
 
 
+=======
+/**/node_modules
+/**/users.txt
+/**/users.csv
+/**/send_mails.py
+/**/add_users.py
+>>>>>>> e9ac5b820b45d48afa1aaf36db30f28a2a2d837d

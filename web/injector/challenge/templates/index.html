@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mb-4">file</h1>
+        <form onsubmit="event.preventDefault(); fun()">
+            <div class="mb-3">
+                <label for="file" class="form-label">path to file you want to list</label>
+                <input type="text" name="file" id="file" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+        <div id="result" class="mt-4"></div>
+    </div>
+
+    <script>
+        const fun = () => {
+            const file = document.querySelector('form').elements.file.value;
+            if (file) {
+                const div = document.getElementById('result');
+                div.innerHTML = '<p class="text-muted">fileing, please wait...</p>';
+                fetch(window.location.href + "/file?file=" + file, {
+                    method: 'GET',
+                })
+                    .then(response => response.text())
+                    .then(data => {
+                        data = data.replace(/\n/g, '<br>')
+                        div.innerHTML = data.replace(/\n/g, '<br>');
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            }
+        }
+    </script>
+</body>
+
+</html>

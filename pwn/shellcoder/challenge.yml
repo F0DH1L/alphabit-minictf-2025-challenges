@@ -1,0 +1,40 @@
+name: shellcoder 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > showcase your shellcode mastery   
+  > [chall](https://drive.google.com/file/d/1N5hhKmjlpZuZ7OmsDm1Fl1MKWZ2AicW6/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{y0u_are_a_re4l_sh3llc0der}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: nc challenges.alphabit.club 1307
+
+topics:
+  - shellcode
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+

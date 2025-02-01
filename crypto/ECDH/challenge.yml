@@ -10,7 +10,7 @@ description: |
    - The elliptic curve used in this challenge is brainpoolP256r1.
   >  [challenge.txt](https://drive.google.com/file/d/1iDpigAfYoIaMN8-_ImTC9gg89eaz90k7/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-flag:
+flags:
   - Alphabit{N0w_Y0u_Kn0w_4b0ut_ECDH}
 files:
   - challenge.txt

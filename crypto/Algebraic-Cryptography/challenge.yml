@@ -11,7 +11,7 @@ description: |
   The encryption supports letters, numbers, and special characters.
   > [ciphertext.txt](https://drive.google.com/file/d/1HnlEcEoOr4MUpNc-chJmAXEuAma52rrY/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-flag:
+flags:
   - Alphabit{Y0U_NEED_ALG3BR4_IN_CRYPT0}
 
 tags:

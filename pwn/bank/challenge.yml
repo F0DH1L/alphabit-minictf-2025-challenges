@@ -29,7 +29,7 @@ extra:
     minimum: 50
 
 
-connection_info: connection_info
+connection_info: nc challenges.alphabit.club 1302
 
 topics:
   - simple uaf

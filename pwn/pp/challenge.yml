@@ -1,0 +1,41 @@
+name: pp 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > pwnprintf  
+  > [chall](https://drive.google.com/file/d/1kD8dhQb0dtDgu9utfji6yMiuYk5dDx8I/view?usp=drive_link)  
+  > [chall.c](https://drive.google.com/file/d/1K6K8qUYRRBF9T-onUISxPHxQUlyQAJRP/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{printf_1s_vulnr4ble_you_sh0uld_us3_gets}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: nc challenges.alphabit.club 1305
+
+topics:
+  - printf
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Clubs Search</title>
+    <script>
+        function searchClub(event) {
+            event.preventDefault();
+            let searchValue = document.getElementById('searchInput').value;
+            fetch('/search', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'search=' + encodeURIComponent(searchValue)
+            })
+            .then(response => response.json())
+            .then(data => {
+                let resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+                if (data && data.length > 0) {
+                    data.forEach(club => {
+                        let p = document.createElement('p');
+                        p.textContent = `${club[1]} - UCL Titles: ${club[2]}`;
+                        resultsDiv.appendChild(p);
+                    });
+                } else {
+                    resultsDiv.innerHTML = '<p>No results found</p>';
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Search for Football Clubs</h1>
+    <form onsubmit="searchClub(event)">
+        <input type="text" id="searchInput" name="search" placeholder="Enter club name" required>
+        <button type="submit">Search</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>

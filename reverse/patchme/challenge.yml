@@ -1,0 +1,41 @@
+name: patchme 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: reverse
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > patch this file pls  
+  > [chall](https://drive.google.com/file/d/1Rv3ihsvtr-A_mo20YRJDGJ1ydc2fpvMh/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{y0u_ar3_4_lucky_patch3r}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: nc mini-ctf.alphabit.club 1360
+
+topics:
+  - patching
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
+

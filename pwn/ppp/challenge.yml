@@ -1,0 +1,42 @@
+name: ppp 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: ezmed
+
+description: |
+  > solve pls  
+  > [chall](https://drive.google.com/file/d/1yQELfOLj5hhjxj8ZGRpAXLKIQlAlvyX_/view?usp=drive_link)  
+  > [ld.so](https://drive.google.com/file/d/1huC4pKSXkb5fSe6pxcHpYyv2dUxEF2fj/view?usp=drive_link)  
+  > [libc.so.6](https://drive.google.com/file/d/1jINeRxInbqU07Il7Uew3V9tvnoSS_gFF/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{0ne_g4dget_1s_great_1_always_use_it}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: nc challenges.alphabit.club 1306
+
+topics:
+  - one gadget
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+

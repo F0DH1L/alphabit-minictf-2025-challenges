@@ -5,7 +5,7 @@
 // gcc chall.c -o chall -no-pie -z relro -z now
 
 void win () {
-    puts("you win");
+    system("cat flag.txt");
     exit(0);
 }
 
