@@ -5,21 +5,16 @@ category: "crypto"
 author: "Senhadji M Said"
 author_link: https://github.com/SenhadjiMSaid
 
-description: >
-  Exploit a vulnerability in AES encryption to recover the plaintext and find the flag.
-  Identical ciphertext blocks may reveal information about the plaintext.
-  Evrything you need is in the provided file.
+description: |
+  We've encrypted a message using AES encryption, and we think it's AES-CBC.
+  But something feels off... Can you decrypt the message and uncover the truth? 
+
   > [cbc_challenge.txt](https://drive.google.com/file/d/1rxvdgQLS7wZ8qk2gWDIS5T_GUesZTFpo/view?usp=drive_link)
   >  **Author** : Senhadji M Said
-<<<<<<< HEAD
 
-flag:
+flags:
   - Alphabit{it_was_ECB_all_along}
-=======
-  
-flags: 
-  - Alphabit{CBC_BR4ked}
->>>>>>> e9ac5b820b45d48afa1aaf36db30f28a2a2d837d
+
 files:
   - "cbc_challenge.txt"
 hints:
