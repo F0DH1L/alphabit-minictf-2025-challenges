@@ -6,16 +6,17 @@ author: "Senhadji M Said"
 author_link: https://github.com/SenhadjiMSaid
 
 description: |
-    We encrypted a secret message using a modified Caesar cipher. Instead of a simple shift, we shuffled the alphabet. Your task is to reverse the encryption and retrieve the flag.
-    >
-    >  **Author** : Senhadji M Said
+  We encrypted a secret message using a modified Caesar cipher. Instead of a simple shift, we shuffled the alphabet. Your task is to reverse the encryption and retrieve the flag.
+  >  [flag.enc](https://drive.google.com/file/d/1SRQLZafzzyRxvNgIAJHLxUmLkVFjAzR-/view?usp=drive_link)
+  > [shuffled_caesar_encrypt.py](https://drive.google.com/file/d/17lcS33pddQfPuaOoM5hNLpXgcOSUa81c/view?usp=drive_link)
+  >  **Author** : Senhadji M Said
 flags:
   - Alphabit{khalatha_tsfa}
 files:
   - flag.enc
 hints:
   - The encryption involves a shuffled alphabet. Think of a Caesar cipher, but instead of shifting, we randomly rearranged the alphabet.
-  - The random arrangement of the alphabet was generated using a fixed seed (`2025`), which makes the process reproducible.  
+  - The random arrangement of the alphabet was generated using a fixed seed (`2025`), which makes the process reproducible.
 tags:
   - cryptography
   - beginner
