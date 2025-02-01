@@ -4,7 +4,7 @@ author: nothoudaifa
 author_link: https://github.com/Cherifi-Houdaifa
 
 # Challenge category (pwn, web, reverse, crypto, misc, linux)
-category: rev
+category: reverse
 # Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
 difficulty: easy
 
