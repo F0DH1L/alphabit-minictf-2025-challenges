@@ -7,7 +7,7 @@ difficulty: easy
 
 description: |
   > i made a website checker it will give you the source code of anything you want 
-  > [files](https://drive.google.com/drive/folders/1PNMrxT5PoaS8-2s5Xz73N20APaEcZb1F)
+  > [files](https://drive.google.com/drive/u/0/folders/1MeXCCq3_yTOLWd2SsPBBv_0wVejNM9Si)
   >
   **Author** : F0DH1L
 flags:
@@ -16,16 +16,12 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: 40
+    decay: 35
     minimum: 50
 
 connection_info: http://mini-ctf.alphabit.club:1340
 
-topics:
-  - ssrf
 
-tags:
-  - ssrf
 
 
 # DO NOT CHANGE
