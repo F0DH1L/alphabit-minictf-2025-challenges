@@ -1,4 +1,4 @@
-name: nodebug 
+name: patchme 
 author: nothoudaifa
 # Author website or Github link
 author_link: https://github.com/Cherifi-Houdaifa
@@ -9,13 +9,12 @@ category: rev
 difficulty: easy
 
 description: |
-  > you may or may not want to debug this executable  
-  > oh, and wrap the output in ```Alphabit{``` ```}```  
-  > [chall](https://drive.google.com/file/d/1uy0imkWdIFaA6ooV15UddzrrTZBMdG7Z/view?usp=drive_link)  
+  > patch this file pls  
+  > [chall](https://drive.google.com/file/d/1Rv3ihsvtr-A_mo20YRJDGJ1ydc2fpvMh/view?usp=drive_link)  
 
   **Author** : nothoudaifa
 flags:
-  - Alphabit{no_debug_neededd}
+  - Alphabit{y0u_ar3_4_lucky_patch3r}
 
 # Challenge type and points
 # For regular challenges leave like this:
@@ -23,13 +22,14 @@ type: dynamic
 value: 500
 extra:
     initial: 500
-    decay: ${DECAY} # leave it like this
+    decay: 35 # leave it like this
     minimum: 50
 
 
+connection_info: nc mini-ctf.alphabit.club 1360
 
 topics:
-  - debug
+  - patching
 
 
 # DO NOT CHANGE
