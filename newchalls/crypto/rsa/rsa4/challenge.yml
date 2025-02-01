@@ -1,0 +1,21 @@
+name: Unpadded RSA 4
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: crypto
+difficulty: ezmed
+
+description: |
+  > My pc crashed so many times,So I made my exponent the smaller possible.  
+
+  **Author** : y8w3ly
+flags:
+  - Alphabit{Th0se_chin1s3_p30pl3_ruin3d_4ll_my_plan5}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 
+    minimum: 50
+
+connection_info: connection info
