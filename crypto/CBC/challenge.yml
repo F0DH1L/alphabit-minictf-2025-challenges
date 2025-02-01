@@ -11,7 +11,7 @@ description:  >
   >
   >  **Author** : Senhadji M Said
   
-flag: 
+flags: 
   - Alphabit{CBC_BR4ked}
 files:
   - "cbc_challenge.txt"

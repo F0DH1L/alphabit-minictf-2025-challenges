@@ -33,7 +33,7 @@ Ciphertext: [9, 157, 37, 21, 9]
 
 - message to encrypt is `ESI`
 
-## Flag:
+## flags:
 
 the flag is in format :
 `Alphabit{E1_E2_E3}`

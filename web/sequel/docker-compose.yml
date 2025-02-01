@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    image: sqli3
+    ports:
+      - 1341:1337
+    restart: always

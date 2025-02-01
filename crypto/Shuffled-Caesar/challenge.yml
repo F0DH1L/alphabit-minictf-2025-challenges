@@ -9,7 +9,7 @@ description: |
     We encrypted a secret message using a modified Caesar cipher. Instead of a simple shift, we shuffled the alphabet. Your task is to reverse the encryption and retrieve the flag.
     >
     >  **Author** : Senhadji M Said
-flag:
+flags:
   - Alphabit{khalatha_tsfa}
 files:
   - flag.enc
