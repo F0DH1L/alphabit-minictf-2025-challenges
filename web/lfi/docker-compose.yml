@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - '1320:80'
+      - '1340:80'
     healthcheck:
       test: curl -I --fail http://localhost/ || exit 1
       interval: 60s
