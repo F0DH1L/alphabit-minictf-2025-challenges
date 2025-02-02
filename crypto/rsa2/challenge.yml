@@ -1,0 +1,22 @@
+name: Unpadded RSA 2
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: crypto
+difficulty: medium
+
+description: |
+  > My mistake was that I shared the public key with you.  
+  **Author** : y8w3ly
+flags:
+  - Alphabit{How_D1d_y0u_solV3_1t_wi70uT_th3_modulo?}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 
+    minimum: 50
+
+connection_info: connection info
+
+state: hidden

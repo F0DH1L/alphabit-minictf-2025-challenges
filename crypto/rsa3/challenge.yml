@@ -1,0 +1,23 @@
+name: Unpadded RSA 3
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: crypto
+difficulty: medium
+
+description: |
+  > I won't let you do those hacker things this time, no encrypt function.
+  
+  **Author** : y8w3ly
+flags:
+  - Alphabit{1s_th47_r34lly_p0ssib13?}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 
+    minimum: 50
+
+connection_info: connection info
+
+state: hidden
