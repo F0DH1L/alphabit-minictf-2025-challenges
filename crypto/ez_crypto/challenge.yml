@@ -20,3 +20,5 @@ extra:
     minimum: 50
 
 connection_info: connection info
+
+state: hidden
