@@ -6,8 +6,8 @@ author: "Senhadji M Said"
 author_link: https://github.com/SenhadjiMSaid
 
 description: |
-  Decrypt a message encrypted using the Affine Cipher and retrieve the flag.
-  > [challenge_ciphertext.txt](https://drive.google.com/file/d/1cyQRl4JXguYhDWrfLpusxXRqbHiscDcv/view?usp=drive_link)
+  Decrypt a message encrypted using the Affine Cipher and retrieve the flag.  
+  > [challenge_ciphertext.txt](https://drive.google.com/file/d/1cyQRl4JXguYhDWrfLpusxXRqbHiscDcv/view?usp=drive_link)  
   >  **Author** : Senhadji M Said
 flags:
   - Alphabit{did_you_know_affine_cipher_is_a_type_of_substitution_cipher}
