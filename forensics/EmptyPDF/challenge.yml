@@ -29,7 +29,7 @@ tags:
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
 
-state: hidden
+state: visible
 
 version: "0.1"
 

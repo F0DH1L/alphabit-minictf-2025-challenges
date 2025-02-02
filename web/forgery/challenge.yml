@@ -26,7 +26,7 @@ connection_info: http://mini-ctf.alphabit.club:1342
 
 # DO NOT CHANGE
 
-state: hidden
+state: visible
 
 version: "0.1"
 

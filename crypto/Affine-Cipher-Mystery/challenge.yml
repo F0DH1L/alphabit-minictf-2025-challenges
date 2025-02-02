@@ -28,6 +28,6 @@ extra:
   decay: 35 # leave it like this
   minimum: 50
 
-state: hidden
+state: visible
 
 version: "0.1"

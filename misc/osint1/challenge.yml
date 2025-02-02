@@ -65,8 +65,7 @@ extra:
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
 # Accepts strings
-topics:
-  - buffer overflow
+
 # Tags are used to provide additional public tagging to a challenge
 # Can be removed if unused
 # Accepts strings
@@ -78,6 +77,6 @@ tags:
 
 # DO NOT CHANGE
 
-state: hidden
+state: visible
 
 version: "0.1"
