@@ -34,7 +34,7 @@ topics:
 
 # DO NOT CHANGE
 
-state: visible
+state: hidden
 
 version: "0.1"
 
