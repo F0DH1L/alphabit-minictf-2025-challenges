@@ -13,9 +13,10 @@ RUN chown -R root:root . && \
 
 COPY challenge/flag.txt .
 COPY challenge/chall .
+COPY challenge/chall.c .
 
-RUN chown root:root chall & chmod 775 chall & chmod u+s chall
-
+RUN chmod 444 chall.c
+RUN chown root:root chall && chmod 775 chall && chmod u+s chall
 RUN chown root:root flag.txt && chmod 440 flag.txt
 RUN ln -s /dev/null /home/ctf/.bash_history 
 RUN echo "*/5 * * * * root	rm -rf /tmp/*" >> /etc/crontab 
