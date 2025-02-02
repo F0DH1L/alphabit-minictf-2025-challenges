@@ -12,8 +12,6 @@ description: |
   >  **Author** : Senhadji M Said
 flags:
   - Alphabit{N0w_Y0u_Kn0w_4b0ut_ECDH}
-files:
-  - challenge.txt
 
 tags:
   - cryptography

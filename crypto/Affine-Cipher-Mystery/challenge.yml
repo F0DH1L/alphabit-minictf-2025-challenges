@@ -11,8 +11,6 @@ description: |
   >  **Author** : Senhadji M Said
 flags:
   - Alphabit{did_you_know_affine_cipher_is_a_type_of_substitution_cipher}
-files:
-  - challenge_ciphertext.txt
 
 tags:
   - cryptography

@@ -26,8 +26,7 @@ tags:
   - steganography
   - png
 
-files:
-  - spectrum_art.bmp
+
 
 state: hidden
 

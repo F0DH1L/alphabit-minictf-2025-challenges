@@ -20,10 +20,6 @@ extra:
 tags:
   - GIF
 
-files:
-  - chall_corrupted.png
-  - part_two.png.gpg
-
 
 state: hidden
 

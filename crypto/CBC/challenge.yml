@@ -15,8 +15,7 @@ description: |
 flags:
   - Alphabit{it_was_ECB_all_along}
 
-files:
-  - "cbc_challenge.txt"
+
 hints:
   - "Look for identical ciphertext blocks."
   - "CBC mode uses XOR between plaintext and the previous ciphertext block (or IV for the first block)."

@@ -19,9 +19,6 @@ extra:
     decay: 35 # leave it like this
     minimum: 50
 
-files:
-  - challenge/data.txt
-
 topics:
   - binary_image
  
