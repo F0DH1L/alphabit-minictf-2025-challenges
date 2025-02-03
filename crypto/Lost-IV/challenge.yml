@@ -1,0 +1,36 @@
+name: "Lost IV"
+
+category: "crypto"
+
+author: "Senhadji M Said"
+author_link: https://github.com/SenhadjiMSaid
+
+description: |
+  We encrypted a secret message using **AES-CBC mode**
+  BAD NEWS : we **lost the IV** because it was randomly generated. 😰
+  GOOD NEWS : We have **The encryption script** 
+
+  Can you reconstruct the IV and decrypt the flag?  
+  > [ciphertext.txt](https://drive.google.com/file/d/1ic2_qIVByBl8uZrndAIMdMQB3CAm-1-B/view?usp=drive_link)  
+  > [Script](https://drive.google.com/file/d/1izgzbbnWq9-WuVKhnv1WU3VXkbxXUKNh/view?usp=drive_link)
+  >  **Author** : Senhadji M Said
+flags:
+  - Alphabit{u_f0uNd_th3_lost_1V}
+
+tags:
+  - cryptography
+  - beginner
+  - ctf
+
+difficulty: "Easy-Medium"
+
+type: dynamic
+value: 500
+extra:
+  initial: 500
+  decay: 35 # leave it like this
+  minimum: 50
+
+state: visible
+
+version: "0.1"

@@ -23,3 +23,7 @@ Crypto/ECDH/soll.py
 /**/users.csv
 /**/send_mails.py
 /**/add_users.py
+
+Crypto/Lost-IV/__pycache__
+Crypto/Lost-IV/soll.py
+Crypto/Lost-IV/secret.py
