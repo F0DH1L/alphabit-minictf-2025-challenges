@@ -1,5 +1,5 @@
 ```bash
-qpdf --object-stream=disable pdf.pdf output.pdf
+qpdf --object-streams=disable pdf.pdf output.pdf
 ```
 ```bash
 strings output.pdf 
