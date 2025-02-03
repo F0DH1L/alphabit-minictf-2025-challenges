@@ -1,0 +1,34 @@
+name: Linear regression challenge
+author: Saadi Ahmed
+author_link: https://github.com/saadiahmed-hash
+
+category: misc
+difficulty: medium
+
+description: |
+  > Welcome to the Linear Model Challenge !  
+  > This model is designed to predict house prices based on various features.  
+
+flags:
+  - Alphabit{Ch1t4n4_!5_H3r3}
+
+type: docker
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+connection_info: nc challenges.alphabit.club 1310
+
+topics:
+  - linear regression
+
+tags:
+  - challenge
+  - beginner friendly
+
+
+state: hidden
+
+version: "0.1"
