@@ -24,10 +24,9 @@ difficulty: ezmed
 # - always add the author line in the description (because CTFd doesn't add the author in the challenge description)
 description: |
   > F4 apartment is no longer enough for my family.   
-  > [chall.jpg](https://drive.google.com/file/d/1I_PNSFyoI5-gSL81H6PxePtpUITj9Fuv/view?usp=drive_link)   
-
-  >
-  >  **Author** : y8w3ly
+  > [chall.jpg](https://drive.google.com/file/d/1I_PNSFyoI5-gSL81H6PxePtpUITj9Fuv/view?usp=drive_link)  
+  
+  **Author** : y8w3ly
 flags:
   # The flag should match this pattern: ^Alphabit{[A-Za-z0-9_@><:\.\-\+\$#!]{12,}}$
   # 1. It can have any alphanumeric characters in addition of the following
@@ -47,7 +46,9 @@ extra:
 # For per team docker challenges
 # type: docker
 # value: 500
-
+tags:
+	- stego
+	- guessy
 
 # Optional settings
 

@@ -10,9 +10,9 @@ description: |
   > my boring neighbor always tell me if I could  
   > hack some accounts for him, but this time  
   > he came with a very interesting thing.  
-  > [profile.zip](https://drive.google.com/drive/folders/1s1g4eqewsjsgPV7IEOCMHoBbHf2mQKR8?usp=drive_link)
-  >
-  >  **Author** : y8w3ly
+  > [profile.zip](https://drive.google.com/drive/folders/1s1g4eqewsjsgPV7IEOCMHoBbHf2mQKR8?usp=drive_link)  
+  
+  **Author** : y8w3ly
 flags:
   - Alphabit{D0n7_Try_th1s_t0_g3t_y0uR_g1rlfr13nds_4cc0un75}
 type: dynamic
@@ -27,7 +27,7 @@ topics:
   - forensics
 
 tags :
-  - firefox 
+  - bruteforce
   - hard
 
   

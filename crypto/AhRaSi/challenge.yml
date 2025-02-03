@@ -25,9 +25,9 @@ difficulty: ezmed
 description: |
   > I don't think you know the modular arithmetic i learned recently, so i implented it in my encryption.  
   > [output.txt](https://drive.google.com/file/d/1Dja40GSpJlFyLGxL7EemxwfKk6URPhaD/view?usp=drive_link)  
+  > [chall.py](https://drive.google.com/file/d/1tPEKUDEC7LAP96jjmYVLPC_JMzrg1qeK/view?usp=drive_link)  
   
-  >
-  >  **Author** : y8w3ly
+  **Author** : y8w3ly
 flags:
   # The flag should match this pattern: ^Alphabit{[A-Za-z0-9_@><:\.\-\+\$#!]{12,}}$
   # 1. It can have any alphanumeric characters in addition of the following
@@ -72,6 +72,7 @@ topics:
 # Accepts strings
 tags:
   - rsa
+  - binomials
 
 # Files to be uploaded alongside the challenge in CTFd
 # These paths are relative to the same directory where the challenge.yml file is.
