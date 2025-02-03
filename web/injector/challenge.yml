@@ -6,8 +6,7 @@ category: web
 difficulty: easy
 
 description: |
-  > i made a database for the best clubs in the world, you can check it out 
-  > [files](https://drive.google.com/drive/u/0/folders/1T-WvlG7BrI9Yevfirfgguqq9T1BrCvMI)
+  > I added a new functionality to my website check it out   
   >
   **Author** : F0DH1L
 flags:
@@ -19,7 +18,7 @@ extra:
     decay: 35
     minimum: 50
 
-connection_info: http://mini-ctf.alphabit.club:1343
+connection_info: http://challenges.alphabit.club:1343
 
 
 

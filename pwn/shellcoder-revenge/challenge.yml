@@ -1,0 +1,40 @@
+name: shellcoder revenge 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > the ultimate shellcoding challenge  
+  > [chall](https://drive.google.com/file/d/10Wargk1ke1u4J83q_-x7qA6P4AtHJ5zi/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{n0thing_1s_imp055ible_with_y0u}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: ${DECAY} # leave it like this
+    minimum: 50
+
+
+connection_info: connection_info
+
+topics:
+  - shellcode
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+

@@ -1,0 +1,21 @@
+name: Colors
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: misc
+difficulty: easy
+
+description: |
+  > Something is hidden between those colors, can you retrieve it?   
+  
+  **Author** : y8w3ly
+flags:
+  - Alphabit{H3x_v3lu3s}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 40 # leave it like this
+    minimum: 50
+
+state: hidden

@@ -1,0 +1,23 @@
+name: Unpadded RSA 1
+author: y8w3ly
+author_link: https://github.com/y8w3ly
+
+category: crypto
+difficulty: easy
+
+description: |
+  > This is just the beginning.  
+  
+  **Author** : y8w3ly
+flags:
+  - Alphabit{rsa(a*b)=rsa(a)*rsa(b)}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+connection_info: connection info
+
+state: hidden

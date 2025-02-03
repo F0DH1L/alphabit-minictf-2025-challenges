@@ -19,7 +19,7 @@ extra:
     decay: 35
     minimum: 50
 
-connection_info: http://mini-ctf.alphabit.club:1342
+connection_info: http://challenges.alphabit.club:1342
 
 
 
