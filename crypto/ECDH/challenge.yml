@@ -6,8 +6,8 @@ author: "Senhadji M Said"
 author_link: https://github.com/SenhadjiMSaid
 
 description: |
-  > Alice and Bob are exchanging secret messages using elliptic curve cryptography (ECC). You have intercepted their public keys and, surprisingly, Bob's private key. Your task is to compute the shared secret and decrypt the flag.
-   - The elliptic curve used in this challenge is brainpoolP256r1.
+  **You are Bob.** You and Alice have been exchanging **top-secret messages** using **Elliptic Curve Cryptography (ECC)** on the **brainpoolP256r1** curve.
+  Recently, Alice sent you **the flag for this challenge** using your usual **ECC encryption method**.
   >  [challenge.txt](https://drive.google.com/file/d/1iDpigAfYoIaMN8-_ImTC9gg89eaz90k7/view?usp=drive_link)
   >  **Author** : Senhadji M Said
 flags:
