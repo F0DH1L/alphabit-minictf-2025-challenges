@@ -17,7 +17,6 @@ compose_paths_1=(
 compose_paths_2=(
   "./misc/LinearReg/docker-compose.yml"
   "./misc/escaper/docker-compose.yml"
-  "./misc/filewhat/docker-compose.yml"
 
   "./web/Alpha_Member/docker-compose.yml"
   "./web/sequel_revenge/docker-compose.yml"
@@ -37,7 +36,9 @@ compose_paths_2=(
 )
 
 compose_paths_3=(
+  "./misc/filewhat/docker-compose.yml"
   "./misc/escaper2/docker-compose.yml"
+  "./misc/runner/docker-compose.yml"
 
   "./crypto/rsa3/docker-compose.yml"
   "./crypto/rsa4/docker-compose.yml"
