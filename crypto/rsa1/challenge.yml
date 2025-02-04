@@ -18,6 +18,6 @@ extra:
     decay: 35 # leave it like this
     minimum: 50
 
-connection_info: connection info
+connection_info: nc challenges.alphabit.club 1321
 
 state: hidden

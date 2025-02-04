@@ -1,4 +1,4 @@
-#usr/bin/env python3 
+#!/usr/bin/env python3 
 
 from Crypto.Util.number import long_to_bytes,bytes_to_long,inverse,getPrime
 

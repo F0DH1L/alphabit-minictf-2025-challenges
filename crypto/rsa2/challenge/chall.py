@@ -1,4 +1,4 @@
-#usr/bin/env python3
+#!/usr/bin/env python3
 from Crypto.Util.number import long_to_bytes,bytes_to_long,getPrime
 
 flag = b"Alphabit{How_D1d_y0u_solV3_1t_wi70uT_th3_modulo?}"

@@ -1,5 +1,5 @@
 #!/bin/sh
 EXEC="./chall"
-PORT=#port
+PORT=1337
 
 socat -dd -T300 tcp-l:$PORT,reuseaddr,fork,keepalive EXEC:"$EXEC",stderr
