@@ -5,8 +5,8 @@ services:
   server:
     build: .
     ports:
-      - #ports
+      - 1321:1337
     restart: always
-    mem_limit: 256M
-    mem_reservation: 128M
+    mem_limit: 100M
+    mem_reservation: 50M
     cpus: 1
