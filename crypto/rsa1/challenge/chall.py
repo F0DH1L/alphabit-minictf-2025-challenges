@@ -17,7 +17,7 @@ print(f"{n=}\n{e=}\n{c=}")
 x = bytes_to_long(input("Give some text to encrypt : ").encode())
 print(pow(x,e,n))
 x = int(input("Give me now a ciphertext to decrypt : "))
-if x==c or x%c==0:
+if x!=c:
   print(pow(x,d,n))
 else:
   print("Noo!")
