@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-// gcc chall.c -o chall -no-pie
+// gcc chall.c -o chall -no-pie -no-stack-protector
 
 void setup(){
 	setbuf(stdin, 0);

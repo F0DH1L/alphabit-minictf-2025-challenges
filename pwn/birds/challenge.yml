@@ -1,7 +1,7 @@
-name: oops 
+name: birds 
 author: nothoudaifa
 # Author website or Github link
-author_link: https://github.com/Cherifi-Houdaifa 
+author_link: https://github.com/Cherifi-Houdaifa
 
 # Challenge category (pwn, web, reverse, crypto, misc, linux)
 category: pwn
@@ -9,12 +9,13 @@ category: pwn
 difficulty: easy
 
 description: |
-  > It seems i made a mistake, silly me!  
-  > [chall](https://drive.google.com/file/d/149-O9Acj12msEzmeRENMDBI7VVlbnKOQ/view?usp=drive_link)  
+  > i wonder what's the meaning of the title  
+  > [chall](https://drive.google.com/file/d/15dlVzd1uua3unmK4koMQUWFPHkmWSdFk/view?usp=drive_link)  
+  > [chall.c](https://drive.google.com/file/d/1HgKSeUUSrspkosMtW849wPAF-eZcH5U5/view?usp=drive_link)  
 
   **Author** : nothoudaifa
 flags:
-  - Alphabit{m1st4k3s_h4pp3n!!!}
+  - Alphabit{st4ck_c4n4ry_1s_awwwwwwwwws0me}
 
 # Challenge type and points
 # For regular challenges leave like this:
@@ -26,16 +27,15 @@ extra:
     minimum: 50
 
 
-connection_info: nc challenges.alphabit.club 1300
+connection_info: connection_info
 
 topics:
-  - stupid mistake
-  - overwriting the got 
+  - canary leak
 
 
 # DO NOT CHANGE
 
-state: visible
+state: hidden
 
 version: "0.1"
 
