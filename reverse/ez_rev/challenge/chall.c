@@ -1,19 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <math.h>
-
-int main() {
-    const char* flag = "fakeflag";
-    int array_size = strlen(flag);    
-    int* array = (int*)malloc(array_size * sizeof(int));
-    
-    for(int i = 0; i < array_size; i++) {
-        array[i] = (int)pow((flag[i] * 5) + 4, 2); 
-    }    
-
-    free(array);
-    return 0;
-}
+#include <stdio.h>
 
 int data() {
     int array[70];
@@ -81,6 +69,24 @@ int data() {
     array[60] = 306916;
     array[61] = 175561;
     array[62] = 395641;
+    for (int i = 0; i < 63; i++) {
+        printf("%d ", array[i]);
+    }
 
     return 0;
 }
+
+int main() {
+    const char* flag = "fakeflag";
+    int array_size = strlen(flag);    
+    int* array = (int*)malloc(array_size * sizeof(int));
+    
+    for(int i = 0; i < array_size; i++) {
+        array[i] = (int)pow((flag[i] * 5) + 4, 2); 
+    }    
+
+    free(array);
+    data();
+    return 0;
+}
+
