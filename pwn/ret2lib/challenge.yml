@@ -1,0 +1,43 @@
+name: ret2lib 
+author: nothoudaifa
+# Author website or Github link
+author_link: https://github.com/Cherifi-Houdaifa
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: pwn
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: easy
+
+description: |
+  > ret2libc, with no twists this time  
+  > [chall](https://drive.google.com/file/d/1PL0oEC0FtQXTHapHhw6hlhc7XRtQ_F15/view?usp=drive_link)  
+  > [chall.c](https://drive.google.com/file/d/18V4pMSnBdehUFQJWxvD7IX43jD973tcM/view?usp=drive_link)  
+  > [libc.so.6](https://drive.google.com/file/d/1KnQVTWbhs7dmFfUyKv5eIwjoygajA6Oe/view?usp=drive_link)  
+  > [ld.so.2](https://drive.google.com/file/d/1zxgLmqxX7l5ZdIPSQNC-h-kIm-NK4PzY/view?usp=drive_link)  
+
+  **Author** : nothoudaifa
+flags:
+  - Alphabit{r3t2l1bc_so_c00l_4nd_us3ful}
+
+# Challenge type and points
+# For regular challenges leave like this:
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: connection_info
+
+topics:
+  - ret2libc
+
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+
