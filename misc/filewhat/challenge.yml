@@ -20,7 +20,7 @@ extra:
     decay: 35 # leave it like this
     minimum: 50
 
-connection_info: # i left it as it was
+connection_info: nc challenges.alphabit.club 1315
 
 topics:
   - rev

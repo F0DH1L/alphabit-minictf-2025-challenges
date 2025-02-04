@@ -19,7 +19,7 @@ extra:
     decay: 35
     minimum: 50
 
-connection_info: nc challenges.alphabit.club 1310
+connection_info: nc challenges.alphabit.club 1314
 
 topics:
   - linear regression
