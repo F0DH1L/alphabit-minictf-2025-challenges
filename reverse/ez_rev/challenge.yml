@@ -7,7 +7,7 @@ difficulty: easy
 
 description: |
   > If you wanna learn reverse this challenge is for you.
-  >  [chall](https://drive.google.com/file/d/1eSQCqhB4_QnWHRHeZS3Omu50T1CaYzqy/view?usp=drive_link)
+  >  [chall]https://drive.google.com/file/d/1DHyMglItQZF4m4PSD3x6ZtHb3sU_cK-3/view?usp=drive_link
   >
   >  **Author** : y8w3ly
 flags:
@@ -25,8 +25,8 @@ topics:
   - rev
 
 tags :
-  - crackme
-
+  - starter
+  - ghidra
   
 # DO NOT CHANGE
 
