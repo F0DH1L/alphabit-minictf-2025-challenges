@@ -9,7 +9,10 @@ e = 0x10001
 m = bytes_to_long(flag)
 c = pow(m,e,n)
 print(f"{c=}\n{e=}")
-x = bytes_to_long(input("Give some text to encrypt : ").encode())
+x = int(input("Give me a number to encrypt : "))
 print(pow(x,e,n))
 x = int(input("Give me now a ciphertext to decrypt : "))
-print(pow(x,d,n))
+if x!=c or x%c!=0:
+  print(pow(x,d,n))
+else :
+  print("Noo!")
