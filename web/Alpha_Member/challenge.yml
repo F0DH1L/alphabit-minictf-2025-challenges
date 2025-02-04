@@ -1,0 +1,42 @@
+# NOTE: carefully read the comments
+# NOTE: change all that's between {} unless specified otherwise
+#
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+#
+name: Alpha Member
+author: OneK
+# Author website or Github link
+author_link: author_link
+
+# Challenge category (pwn, web, reverse, crypto, misc, linux)
+category: web
+# Challenge difficulty (easy, ezmed, medium, medhard, hard, extreme)
+difficulty: ezmed
+
+description: |
+  > You're trying to access the AlphaBit Exclusive Club,  
+  > but your membership isn't recognized! Navigate through pages,
+  > follow hints, and modify your status to prove you're a real member.  
+
+  **Author** : OneK
+flags:
+  - Alphabit{PR0UD_ALPH4B1T_M3MB3R}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35 # leave it like this
+    minimum: 50
+
+
+connection_info: connection_info
+
+
+state: hidden
+
+version: "0.1"
+

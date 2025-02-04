@@ -1,0 +1,22 @@
+<h1>Protected Page</h1>
+<p>Welcome, member! Here's your final hint:</p>
+<p id="message">{{ hint }}</p>
+
+<script>
+    // Function to get cookies
+    function getCookie(name) {
+        let cookies = document.cookie.split(';');
+        for (let i = 0; i < cookies.length; i++) {
+            let cookie = cookies[i].trim();
+            if (cookie.startsWith(name + "=")) {
+                return cookie.substring(name.length + 1);
+            }
+        }
+        return null;
+    }
+
+    // Check if the 'member' cookie is set to 'true'
+    if (getCookie('member') === 'true') {
+        document.getElementById("message").innerHTML = "✅ You are now a member! Proceed to /final-member";
+    }
+</script>
