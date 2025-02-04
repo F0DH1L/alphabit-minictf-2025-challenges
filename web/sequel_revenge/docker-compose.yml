@@ -6,5 +6,5 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 1341:1337
+      - 1345:1337
     restart: always

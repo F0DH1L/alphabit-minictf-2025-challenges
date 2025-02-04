@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football Clubs Search</title>
     <script>
-        function searchClub(event) {
+        function sortCLubs(event) {
             event.preventDefault();
-            let searchValue = document.getElementById('searchInput').value;
-            fetch('/search', {
+            let order_by = 'UCL_WON';
+            fetch('/sort', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: 'search=' + encodeURIComponent(searchValue)
+                body: 'order_by=' + encodeURIComponent(order_by)
             })
             .then(response => response.json())
             .then(data => {
@@ -33,9 +33,8 @@
 </head>
 <body>
     <h1>Search for Football Clubs</h1>
-    <form onsubmit="searchClub(event)">
-        <input type="text" id="searchInput" name="search" placeholder="Enter club name" required>
-        <button type="submit">Search</button>
+    <form onsubmit="sortCLubs(event)">
+        <button type="submit">Order by UCL WON</button>
     </form>
     <div id="results"></div>
 </body>
