@@ -40,7 +40,7 @@ int main () {
         printf("gg");
         exit(1);
     } else {
-        system("cat /flag.txt");
+        system("cat flag.txt");
     }
 
 }
