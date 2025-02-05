@@ -9,9 +9,9 @@ e = 0x10001
 m = bytes_to_long(flag)
 c = pow(m,e,n)
 print(f"{c=}\n{e=}")
-x = int(input("Give me a number to encrypt : "))
+x = int(input("Give me a number to decrypt : "))
 print(pow(x,e,n))
-x = int(input("Give me now a ciphertext to decrypt : "))
+x = int(input("Give me another ciphertext to decrypt : "))
 if x!=c or x%c!=0:
   print(pow(x,d,n))
 else :
