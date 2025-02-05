@@ -2,7 +2,7 @@
 
 from Crypto.Util.number import long_to_bytes,bytes_to_long,inverse,getPrime
 
-flag = b'somelongtext'
+flag = b'Alphabit{rsa(a*b)=rsa(a)*rsa(b)'
 
 m = bytes_to_long(flag)
 
