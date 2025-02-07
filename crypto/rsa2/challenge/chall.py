@@ -12,7 +12,8 @@ phi = (p-1)*(q-1)
 d = pow(e,-1,phi)
 print(f"{c=}\n{e=}")
 x = int(input("Give me a ciphertext to decrypt : "))
-print(pow(x,d,n))
+if x!=c:
+  print(pow(x,d,n))
 x = int(input("Give me another ciphertext to decrypt : "))
 if x!=c or x%c!=0:
   print(pow(x,d,n))
