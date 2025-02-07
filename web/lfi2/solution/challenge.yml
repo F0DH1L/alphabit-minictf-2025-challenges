@@ -1,0 +1,29 @@
+name: "lfi-2"
+author: "Souhaib"
+
+category: web
+difficulty: easy
+
+description: |
+  > i ve change a lot of things this time 
+  **Author** : Souhaib
+
+connection_info: http://challenges.alphabit.club:1340
+
+tags:
+  - easy
+  - str_replace
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 25
+  minimum: 50
+
+flags:
+  -Alphabit{u_sill_b4by_f0r_m3_until_us0lveit}
+state: visible
+
+version: "0.1"
