@@ -1,0 +1,12 @@
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
+
+
+ct = '230ed86859cd65cae6d32b734a225efeca2bef1901608b90ae9a824ac736984589c8f4546202410c8620d3e33948f9be2683eba94a9599ad1c259f6b4cc0a7ce0499bf3e5e31f207d146f9e7335fa39fdf91abf3da899cf326b7b1e78f9dca2676a4bdf7e1bf51f18ebb31773ba79b8e0c53e5c5fe5c4f9a4523e6b3ed451f41'
+
+key = b'secretsenhadji31'
+
+decrypt = AES.new(key, AES.MODE_CBC, key)
+pt = decrypt.decrypt(bytes.fromhex(ct))
+
+print(pt)

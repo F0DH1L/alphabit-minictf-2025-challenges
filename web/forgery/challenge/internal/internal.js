@@ -2,7 +2,7 @@ import 'dotenv/config';
 import express from 'express';
 
 const app = express();
-const port = 8088;
+const port = 8080;
 
 app.get('/flag', (req, res) => {
     res.send(`GG here is your flags: ${process.env.FLAG}`);

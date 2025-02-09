@@ -1,9 +1,9 @@
-name: sequel
+name: sequel_revenge
 author: F0DH1L
 author_link: https://github.com/fodhil-ben
 
 category: web
-difficulty: easy
+difficulty: medium
 
 description: |
   > i made a database for the best clubs in the world, you can check it out 

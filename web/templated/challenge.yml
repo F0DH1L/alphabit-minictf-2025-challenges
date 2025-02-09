@@ -1,0 +1,32 @@
+name: templated
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: medium
+
+description: |
+  > Hello there welcome to alphabit club
+  > [file](https://drive.google.com/drive/u/0/folders/1h6p7roBAjW204ywNs5c1KtEh6beAeIqS)
+  >
+  **Author** : F0DH1L
+flags:
+  - Alphabit{SSTI_1s_my_f4v0r1t3}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+connection_info: http://challenges.alphabit.club:1346
+
+
+
+# DO NOT CHANGE
+
+state: visible
+
+version: "0.1"
+
+

@@ -3,8 +3,6 @@ import sqlite3
 import string
 import random
 from flag import FLAG
-
-
 def create_db():
     conn = sqlite3.connect('clubs.db')
     c = conn.cursor()
@@ -31,8 +29,6 @@ def create_db():
               ''') VALUES ("'''+FLAG+'''")''')
     conn.commit()
     conn.close()
-
-
 def search_for_product(search):
     try:
         conn = sqlite3.connect('clubs.db')
@@ -47,10 +43,7 @@ def search_for_product(search):
         print(e)
         return False
     return False
-
 # add product
-
-
 def add_product(name, UCL_WON):
     try:
         conn = sqlite3.connect('clubs.db')
@@ -63,10 +56,7 @@ def add_product(name, UCL_WON):
         print(e)
         return False
     return True
-
 # insert items
-
-
 def fill():
     add_product('REAL MADRID', 15)
     add_product('AC MILAN', 7)

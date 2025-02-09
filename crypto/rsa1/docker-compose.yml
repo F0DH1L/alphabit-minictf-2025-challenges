@@ -6,7 +6,7 @@ services:
     build: .
     ports:
       - 1321:1337
-    restart: always
+    restart: on-failure
     mem_limit: 100M
     mem_reservation: 50M
     cpus: 1

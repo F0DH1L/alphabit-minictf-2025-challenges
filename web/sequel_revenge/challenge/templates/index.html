@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Clubs Search</title>
+    <script>
+        function sortCLubs(event) {
+            event.preventDefault();
+            let order_by = 'UCL_WON';
+            fetch('/sort', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'order_by=' + encodeURIComponent(order_by)
+            })
+            .then(response => response.json())
+            .then(data => {
+                let resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+                if (data && data.length > 0) {
+                    data.forEach(club => {
+                        let p = document.createElement('p');
+                        p.textContent = `${club[1]} - UCL Titles: ${club[2]}`;
+                        resultsDiv.appendChild(p);
+                    });
+                } else {
+                    resultsDiv.innerHTML = '<p>No results found</p>';
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</head>
+<body>
+    <h1>Search for Football Clubs</h1>
+    <form onsubmit="sortCLubs(event)">
+        <button type="submit">Order by UCL WON</button>
+    </form>
+    <div id="results"></div>
+</body>
+</html>

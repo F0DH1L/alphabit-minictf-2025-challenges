@@ -1,0 +1,32 @@
+name: sequel_revenge
+author: F0DH1L
+author_link: https://github.com/fodhil-ben
+
+category: web
+difficulty: medium
+
+description: |
+  > the previous challenge was too easy, so I decided to make it a little bit harder.
+  > [files](https://drive.google.com/drive/u/0/folders/1-X6yI9LHj62IbKCXz2i4ZlIwDHIgaq5g)
+  >
+  **Author** : F0DH1L
+flags:
+  - Alphabit{GG_Y0u_4R3_4_R34L_H4CK3R}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 35
+    minimum: 50
+
+connection_info: http://challenges.alphabit.club:1345
+
+
+
+# DO NOT CHANGE
+
+state: visible
+
+version: "0.1"
+
+
