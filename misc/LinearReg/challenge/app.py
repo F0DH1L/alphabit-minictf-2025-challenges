@@ -24,7 +24,7 @@ def handle_client():
         
         try:
             # Parse input into an array of integers
-            inputs = list(map(int, data.decode().split()))
+            inputs = list(map(int, data.split()))
             if len(inputs) != len(weights):
                 print("Invalid input length ! Try again.")
                 continue
@@ -34,6 +34,7 @@ def handle_client():
             print(f"Prediction: {result} $".encode())
 
         except Exception as e:
+            print(e)
             print("Error processing input.")
 
 handle_client()
