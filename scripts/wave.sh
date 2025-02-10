@@ -35,6 +35,7 @@ compose_paths_2=(
 
 )
 
+
 compose_paths_3=(
   "./misc/filewhat/docker-compose.yml"
   "./misc/escaper2/docker-compose.yml"
@@ -42,6 +43,10 @@ compose_paths_3=(
 
   "./crypto/rsa3/docker-compose.yml"
   "./crypto/rsa4/docker-compose.yml"
+
+  "./pwn/birds/docker-compose.yml"
+  "./pwn/ret2lib/docker-compose.yml"
+
 )
 # Check if an integer argument was passed
 if [[ ! $1 =~ ^[0-9]+$ ]]; then
