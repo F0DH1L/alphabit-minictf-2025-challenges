@@ -1,0 +1,29 @@
+name: "lfi_revenge"
+author: "Souhaib"
+
+category: web
+difficulty: easy
+
+description: |
+  > .  
+  **Author** : Souhaib
+
+connection_info: http://challenges.alphabit.club:1347
+
+tags:
+  - easy
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 35
+  minimum: 50
+
+flags:
+  - Alphabit{u_sill_b4by_f0r_m3_until_us0lveit}
+
+state: visible
+
+version: "0.1"

@@ -21,7 +21,7 @@ services:
     volumes:
       - mongodata:/data/db
     ports:
-      - 27017:27017
+      - 27018:27017
     restart: always
     mem_limit: 512M
     mem_reservation: 128M

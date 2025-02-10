@@ -43,14 +43,11 @@
                         # include a file in place of the text !
                         include("blue.php");}
 
-                    # The only way to bypass is using `./colors/..././..././..././..././etc/passwd`
-                    elseif ($_GET['color']== "./colors/..././..././..././..././etc/passwd") {
+                else {
                         echo "&#127881; Hooray you made it! &#127881; <br />";
-                        echo "The flag is: Alphabit{u_sill_b4by_f0r_m3_until_us0lveit}";
-                        include($_GET['color']);
-                
-                    } else {
-                        echo "Invalid file!";
+                        include($color);
+                        echo "<br />";
+                        echo $color;
                     }
                 }
             ?>
