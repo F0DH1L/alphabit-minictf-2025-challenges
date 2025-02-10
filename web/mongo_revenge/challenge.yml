@@ -1,4 +1,4 @@
-name: mongo
+name: mongo_revenge
 author: F0DH1L
 author_link: https://github.com/fodhil-ben
 
@@ -19,7 +19,7 @@ extra:
   decay: 35 # leave it like this
   minimum: 50
 
-connection_info: http://challenges.alphabit.club:1111
+connection_info: http://challenges.alphabit.club:1349
 
 # DO NOT CHANGE
 

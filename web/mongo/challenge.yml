@@ -20,7 +20,7 @@ extra:
   decay: 35 # leave it like this
   minimum: 50
 
-connection_info: http://challenges.alphabit.club:1111
+connection_info: http://challenges.alphabit.club:1348
 
 # DO NOT CHANGE
 
