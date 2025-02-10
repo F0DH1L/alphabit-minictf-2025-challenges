@@ -5,6 +5,9 @@
 
 char buf[32];
 int main(){
+        setbuf(stdin, 0);
+        setbuf(stdout, 0);
+        setbuf(stderr, 0);
         int x;
         printf("Give me a number : ");
         scanf("%d",&x) ;
