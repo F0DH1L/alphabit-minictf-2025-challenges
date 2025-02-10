@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir numpy
 EXPOSE 1337
 
 # Run the challenge
-CMD ["python", "app.py"]
+CMD ["./entrypinst.sh"]
