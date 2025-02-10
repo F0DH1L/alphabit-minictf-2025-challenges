@@ -1,0 +1,32 @@
+version: '2'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 1102:1330
+    depends_on:
+      - database
+    environment:
+      - FLAG=Alphabit{ByP4ss1ng_7h3_Bl4ckl1st_L1k3_4_Pr0}
+      - DB_URI=mongodb://database:27017/MONGO_REVENGE
+    restart: always
+    mem_limit: 256M
+    mem_reservation: 128M
+    cpus: 1
+
+  database:
+    image: mongo:latest
+    volumes:
+      - mongodata:/data/db
+    ports:
+      - 27017:27017
+    restart: always
+    mem_limit: 512M
+    mem_reservation: 128M
+    cpus: 1
+
+
+volumes:
+  mongodata: {}
