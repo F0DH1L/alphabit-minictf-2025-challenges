@@ -13,12 +13,12 @@ bias = 77
 def predict(inputs):
     return int(np.dot(inputs, weights) + bias)
 
-def handle_client(conn):
-    print(b"Welcome to the Linear Model Challenge !")
-    print(b"Enter inputs to get the prediction (25 inputs). ex: 12 34 54 65 67 89 34 12 45 67 45 22 34 56 78 45 23 76 85 23 86 24 19 23 54 ")
+def handle_client():
+    print("Welcome to the Linear Model Challenge !")
+    print("Enter inputs to get the prediction (25 inputs). ex: 12 34 54 65 67 89 34 12 45 67 45 22 34 56 78 45 23 76 85 23 86 24 19 23 54 ")
     
     while True:
-        data = conn.recv(1024).strip()
+        data = input()
         if not data:
             break
         
@@ -26,7 +26,7 @@ def handle_client(conn):
             # Parse input into an array of integers
             inputs = list(map(int, data.decode().split()))
             if len(inputs) != len(weights):
-                print(b"Invalid input length ! Try again.")
+                print("Invalid input length ! Try again.")
                 continue
             
             # Get prediction
@@ -34,5 +34,6 @@ def handle_client(conn):
             print(f"Prediction: {result} $".encode())
 
         except Exception as e:
-            print(b"Error processing input.")
+            print("Error processing input.")
 
+handle_client()
