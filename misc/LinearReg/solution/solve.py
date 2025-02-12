@@ -11,8 +11,8 @@ b = 77
 for i in range(25):
     io.sendline('0 ' * i + '1 ' + '0 ' * (24 - i))
     io.recvuntil(b'Prediction: ')
-    print(io.recvline())
-    pred = int(io.recvline().replace(b' $', b'').strip())
+    # print()
+    pred = int(io.recvline().replace(b' $', b'').strip().replace(b'\'', b''))
     print(chr(pred-b), end='')
 
 # io.interactive()
